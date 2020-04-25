@@ -1,12 +1,13 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import LogoImage from "./logo-image"
 
 const Header = () => (
   <header>
-    <div>
+    <div style={{padding: "120px 0 70px 0"}}>
       <Link to="/">
-        <h1>Complex Codes</h1>
+        <LogoImage />
       </Link>
     </div>
   </header>

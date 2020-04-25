@@ -24,19 +24,22 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div>
+    <div style={{ margin: "auto", width: "100%", maxWidth: "800px", minHeight: "100vh"}}>
       <Header />
       <div>
-        <main style={{ margin: "auto", width: "100%", maxWidth: "1000px" }}>
+        <main >
           {children}
         </main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+
       </div>
-    </>
+    </div>
+    <footer  style={{ color: "white", "backgroundColor": "#FF8939", padding: "50px 0 " }}>
+      <div style={{margin: "auto", width: "100%", maxWidth: "800px"}} >
+        <strong>© {new Date().getFullYear()}, Built with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a></strong>
+        </div>
+
+  </footer></div>
   )
 }
 

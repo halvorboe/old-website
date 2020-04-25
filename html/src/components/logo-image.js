@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const PortraitImage = props => {
+const LogoImage = props => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "happy-me.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -29,14 +29,11 @@ const PortraitImage = props => {
   return (
     <Img
       style={{
-        borderRadius: `100%`,
-        border: "5px solid #FF8939",
-        width: props.width,
-        height: props.height,
+          maxWidth: 400,
       }}
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
   )
 }
 
-export default PortraitImage
+export default LogoImage

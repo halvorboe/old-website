@@ -4,9 +4,9 @@ const Box = ({ children }) => {
   return (
     <div
       style={{
-        border: "1px solid #979797",
-        borderRadius: "10px",
-        padding: "30px",
+        border: "3px solid #EEE",
+        borderRadius: "5px",
+        padding: "0px",
         width: "100%",
         height: "100%",
       }}
