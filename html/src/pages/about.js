@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Box from "../components/box"
-import PortraitImage from "../components/portrait-image"
-import Timeline from "../components/timeline"
+import Layout from "../components/Layout"
+import SEO from "../components/Seo"
+import Box from "../components/Box"
+import PortraitImage from "../components/PortraitImage"
+import Timeline from "../components/Timeline"
 
-const SecondPage = () => (
+const About = () => (
   <Layout>
     <SEO title="About" />
     <div
@@ -39,16 +39,26 @@ const SecondPage = () => (
       </Box>
     </div>
     <div>
-      <h1>What my goals are</h1>
-      <p>I'm really passinate about a lot of stuff.</p>
+      <h1>What I like</h1>
+      <p>I have a long list of topics I enjoy. Designing this blog has been really fun.</p>
     </div>
     <div>
       <h1>What I've done so far</h1>
-      <div style={{ backgroundColor: "#eee", borderRadius: 10 }}>
+      <p>Below you can see a timeline of my programming jurney.</p>
+      <div
+        style={{
+          margin: "50px 0",
+          backgroundColor: "#FAFAFA",
+          width: "100vw",
+          borderRadius: 10,
+          position: "absolute",
+          left: 0,
+        }}
+      >
         <Timeline />
       </div>
     </div>
   </Layout>
 )
 
-export default SecondPage
+export default About

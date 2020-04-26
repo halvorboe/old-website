@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import LogoImage from "./logo-image"
-import Button from "./button"
+import LogoImage from "./LogoImage"
+import Button from "./Button"
+
 const Header = () => (
   <header>
     <div
