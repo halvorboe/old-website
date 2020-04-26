@@ -40,7 +40,10 @@ const About = () => (
     </div>
     <div>
       <h1>What I like</h1>
-      <p>I have a long list of topics I enjoy. Designing this blog has been really fun.</p>
+      <p>
+        I have a long list of topics I enjoy. Designing this blog has been
+        really fun.
+      </p>
     </div>
     <div>
       <h1>What I've done so far</h1>

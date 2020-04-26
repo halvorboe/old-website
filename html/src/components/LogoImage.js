@@ -29,7 +29,7 @@ const LogoImage = props => {
   return (
     <Img
       style={{
-        width: 250,
+        width: 370,
       }}
       fluid={data.placeholderImage.childImageSharp.fluid}
     />

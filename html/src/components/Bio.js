@@ -2,8 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import Box from "./box"
-import PortraitImage from "./portrait-image"
+import Box from "./Box"
+import PortraitImage from "./PortraitImage"
 
 const Bio = () => (
   <Box>

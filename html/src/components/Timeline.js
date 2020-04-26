@@ -5,15 +5,14 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from "react-icons/fa"
 
 const events = [
   {
     date: "2010 - Present",
     title: "Programming",
     subtitle: "Online",
-    description:
-      `I started learning about coding when I was about 12. Progress was really slow in the beginning and I had no idea what I was doing. 
+    description: `I started learning about coding when I was about 12. Progress was really slow in the beginning and I had no idea what I was doing. 
       test`,
   },
   {
@@ -82,8 +81,8 @@ const Timeline = () => {
             iconStyle={{ background: "#FF8939", color: "#fff" }}
             icon={<FaBeer />}
           >
-            <h3 style={{marginTop: 0, marginBotton:0 }}>{event.title}</h3>
-            <h4  style={{marginTop: 0, marginBotton: 0}}>{event.subtitle}</h4>
+            <h3 style={{ marginTop: 0, marginBotton: 0 }}>{event.title}</h3>
+            <h4 style={{ marginTop: 0, marginBotton: 0 }}>{event.subtitle}</h4>
             <p>{event.description}</p>
           </VerticalTimelineElement>
         ))}

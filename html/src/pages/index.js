@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Bio from "../components/bio"
-import Button from "../components/button"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import Bio from "../components/Bio"
+import Button from "../components/Button"
+import SEO from "../components/Seo"
 import { rhythm } from "../utils/typography"
 
 const Post = ({ node }) => {
@@ -22,8 +22,8 @@ const Post = ({ node }) => {
         </h4>
         <h3
           style={{
-            marginBottom: rhythm(1 / 2),
-            marginTop: rhythm(1 / 4),
+            marginBottom: rhythm(1),
+            marginTop: rhythm(1 / 2),
           }}
         >
           <Link
