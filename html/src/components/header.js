@@ -5,10 +5,21 @@ import LogoImage from "./logo-image"
 
 const Header = () => (
   <header>
-    <div style={{padding: "120px 0 70px 0"}}>
-      <Link to="/">
-        <LogoImage />
-      </Link>
+    <div
+      style={{
+        padding: "120px 0 70px 0",
+        display: "flex",
+        justifyContent: "space-between",
+      }}
+    >
+      <div>
+        <Link to="/">
+          <LogoImage />
+        </Link>
+      </div>
+      <div>
+        <input placeholder="Search" />
+      </div>
     </div>
   </header>
 )
