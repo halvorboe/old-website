@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import LogoImage from "./logo-image"
-
+import Button from "./button"
 const Header = () => (
   <header>
     <div
@@ -18,7 +18,7 @@ const Header = () => (
         </Link>
       </div>
       <div>
-        <input placeholder="Search" />
+        <Button>Search</Button>
       </div>
     </div>
   </header>
