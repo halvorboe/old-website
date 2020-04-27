@@ -7,7 +7,7 @@ state: "🏖"
 
 Collecting information about the people visiting your site is crutial - if you want to know who is visiting your site. In the case of this blog, I would like to know if anyone is reading my posts. A lot of great solutions already exist. The most popular one is _Google Analytics_. Their 'free' offering will work perfectly for most people and is used by most sites you visit.
 
-I don't like the business model of _Google Analytics_. It exists to serve advertisers - so it tries to collect as much information as possible. Also, not all of that information is exposed to the entity running the site. For example, there is no way to export all data collected by _Google Analytics_. That means that at some point you will have to opt into their _Google Analytics 360_ plan - which offers deeper insights.
+I don't like the business model of _Google Analytics_. It exists to serve advertisers - so it tries to collect as much information as possible. Also, not all of that information is exposed to the entity running the site. For example, there is no way to export all data collected by _Google Analytics_. That means that at some point you will have to opt into their _Google Analytics 360_ plan - which offers deeper insights but is way to expensive for most people/companies.
 
 So I decided to create my own "Google Analytics" - **with a focus on privacy**.
 
@@ -15,13 +15,13 @@ So I decided to create my own "Google Analytics" - **with a focus on privacy**.
 
 "Google Analytics" is far from the only analytics platform out there. Some of the ones I have considered are:
 
-- Heap Analytics
+- Heap Analytic
 - Amplitude
 - Simple Analytics
 
 Just to be clear, I do not think this solution will be better than any of those. The main purpose of this solution is killing time and having something to write about.
 
-### What is an analytics platform?
+### So what is an analytics platform?
 
 To me, an analytics platform is **a system for aggregating events**. In that defenition there are two main words that need explaination - **event** and **aggregation**.
 
@@ -37,25 +37,51 @@ struct Event {
 }
 ```
 
-These events will be generated while the user is visiting the site.
-
-This event will be triggered and information will be transfered from the browser to the server.
+These events will be generated while the user is visiting the site throught a tracking script. This tracking script will send events back to the server. The server will recieve an event that looks something like this:
 
 ```json
 {
   "id": "1",
+  "session_id": "1",
   "tag": "hit",
   "timestamp": 1231,
   "browser": "Chrome 17.1"
 }
 ```
 
-The role of an analytics platform in this case is to store that event in a way where someone can get value from the event. The mo
+The amount of these events varey. Some trackers track every mouse movement, while other trackers only track when a user enters a site. If there are a lot of these events there is no longer a point to looking at single events. We need to get the bigger picture.
 
-<!-- Should spend some time on explaining why aggregations are important --->
+This is where aggregations come in. Let's say we have 1000 of the events above. Possible insights could be:
 
-## So whats your plan?
+- What browsers are the users using?
+- How many pages does the average user visit?
+- How long does the average user stay on the site?
 
-Tantivy is a really cool library for search. I've been trying to contribute to it, and will try to keep my contributions up. Most of my work has gone into the simple operation of making search go backwards. Anyways, it is a good library for this task.
+To answer these questions we need to do aggregations. Aggregations in simple terms is calculating something based on a set of events. If you are familiar with functional programming, most aggregations can be formulated as a reduce step. Something like:
+
+```rust
+fn average_page_views_per_session(events: Vec[Event]) -> f32 {
+  const unique_sessions: f32 = get_unique_sessions(events);
+  events.len() as f32 / unique_sessions
+}
+```
+
+Doing these aggregations and letting the user query them is the main job of an analytics platform.
+
+## I understand, but where does Gallop come in?
+
+Gallop is not a analytics platform, or at least that is not the goal. The main goal of Gallop is to create a simple API where user submitted events can be processed and insights generated. 
+
+I want to be able to build a dashboard on top of that GraphQL API that can show staticsics of the people visiting my site. 
 
 ![Hello world](./Drawing.png)
+
+So events generated when people visit the different pages on my site will be collected and aggregated with an indexer. This indexer will put the events into an index where they can be easily queried.
+
+I will write more blog posts about the different aspects of the projects. The next one will be about the GraphQL API. 
+
+## Sounds cool. What will the finnished project look like?
+
+Except from the fact that the project probably will never be finnished.
+
+1. There will be a dashboard on this site where users can see how many people have visited the site. There will also be analytics on a per article level. Hopefully this can be added to the statis site generor.
