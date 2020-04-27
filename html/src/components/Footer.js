@@ -7,6 +7,7 @@ const Footer = () => {
         color: "white",
         backgroundColor: "#FF8939",
         padding: "50px 0 ",
+        marginTop: 100,
       }}
     >
       <div style={{ margin: "auto", width: "100%", maxWidth: "800px" }}>

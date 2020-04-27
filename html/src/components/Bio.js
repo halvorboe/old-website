@@ -4,25 +4,27 @@ import React from "react"
 
 import Box from "./Box"
 import PortraitImage from "./PortraitImage"
+import { FaLinkedin, FaGithub } from "react-icons/fa"
 
 const Bio = () => (
   <Box>
     <div style={{ display: "flex", flexDirection: "row" }}>
-      <div style={{ padding: "20px 10px 20px 30px" }}>
-        <PortraitImage width={150} height={150} />
+      <div style={{ padding: 0, margin: 30 }}>
+        <PortraitImage width={170} height={170} />
       </div>
-      <div style={{ padding: 20 }}>
-        <h2></h2>
+      <div style={{ padding: 0, margin: 30 }}>
         <p>
-          Written by me - <strong>Halvor Fladsrud Bø</strong>. I'm a student
-          living in Trondheim, Norway. The goal of the blog is to share my
-          passion for 'niche' topics with other people. That includes:
-          datastores, datastructures, distributed systems and software
-          engineering.{" "}
+          Written by me - <strong>Halvor Fladsrud Bø</strong>. I'm currently a
+          full-time Computer Engineering student at NTNU in Trondheim, Norway.
+          This blog is a place where I can 'share' my niche interests without
+          loosing friends.{" "}
           <Link to="/about/">
             <strong>Read more...</strong>
           </Link>
         </p>
+        <h3 style={{ padding: 0, margin: 0, marginTop: -10 }}>
+          <FaLinkedin /> <FaGithub />
+        </h3>
       </div>
     </div>
   </Box>

@@ -15,13 +15,23 @@ const Header = () => (
         margin: 0,
       }}
     >
-      <div style={{padding: "10px"}}>
+      <div style={{ padding: "10px" }}>
         <Link to="/">
           <LogoImage />
         </Link>
       </div>
-      <div>
-        <Button>Search<FaSearch style={{fontSize: 20, margin: '0 0 0 15px', position: "relative", top: 3}} /></Button>
+      <div hidden>
+        <Button>
+          Search
+          <FaSearch
+            style={{
+              fontSize: 20,
+              margin: "0 0 0 15px",
+              position: "relative",
+              top: 3,
+            }}
+          />
+        </Button>
       </div>
     </div>
   </header>
