@@ -2,7 +2,8 @@
 title: "Gallop: An analytics database written in Rust"
 date: "2020-04-27T22:12:04.284Z"
 description: ""
-state: "🏖"
+views: 1000
+draft: false
 ---
 
 Collecting information about the people visiting your site is crutial - if you want to know who is visiting your site. In the case of this blog, I would like to know if anyone is reading my posts. A lot of great solutions already exist. The most popular one is _Google Analytics_. Their 'free' offering will work perfectly for most people and is used by most sites you visit.

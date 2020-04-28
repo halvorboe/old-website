@@ -2,7 +2,8 @@
 title: "Understanding Bigtable"
 date: "2020-04-27T23:12:04.284Z"
 description: ""
-state: "🏖"
+views: 0
+draft: true
 ---
 
 <!-- Introduction 

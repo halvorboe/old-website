@@ -18,7 +18,7 @@ const Post = ({ node }) => {
             marginTop: rhythm(1 / 2),
           }}
         >
-          {node.frontmatter.date} - {node.frontmatter.state}
+          {node.frontmatter.date} <span style={{color: "#FF8939"}}>{node.frontmatter.draft ? "| DRAFT" : "" }</span>
         </h4>
         <h3
           style={{
@@ -46,8 +46,9 @@ const Post = ({ node }) => {
 }
 
 const IndexPage = ({ data, locations }) => {
-  const posts = data.allMarkdownRemark.edges
-  console.log(posts)
+  console.log(data)
+  const postsByTime = data.time.edges
+  const postsByViews = data.views.edges
   return (
     <Layout>
       <SEO title="Home" />
@@ -60,7 +61,7 @@ const IndexPage = ({ data, locations }) => {
           justifyContent: "space-between",
         }}
       >
-        {posts.slice(0, 4).map(it => (
+        {postsByTime.slice(0, 4).map(it => (
           <div style={{ flex: "0 47%" }}>
             {" "}
             <Post node={it.node} />
@@ -68,10 +69,9 @@ const IndexPage = ({ data, locations }) => {
         ))}
       </div>
       <h1>What's popular?</h1>
-      {posts.slice(0, 10).map(it => (
+      {postsByViews.map(it => (
         <Post node={it.node} />
       ))}
-      <p>Use search to find more</p>
     </Layout>
   )
 }
@@ -80,7 +80,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    time: allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt
@@ -91,7 +91,23 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
-            state
+            draft
+          }
+        }
+      }
+    }
+    views: allMarkdownRemark(sort: { fields: [frontmatter___views], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+            draft
           }
         }
       }
