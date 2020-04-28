@@ -1,6 +1,6 @@
 ---
 title: "Understanding Bigtable"
-date: "2020-04-27T23:12:04.284Z"
+date: "2020-04-20T23:12:04.284Z"
 description: ""
 views: 0
 draft: true
