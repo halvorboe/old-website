@@ -11,7 +11,7 @@ You might have been in the same circle as me before. A sudden spurt of inspirati
 
 That is the circle I&#39;m trying to break out of. And from my experience, the best way to break out of a repeating pattern is to not repeat the pattern. A post-mortem is a technique for that, so...
 
-# Why did I fail before?
+## Why did I fail before?
 
 Implementing new habits is scientifically proven to be hard. For example, the leading cause of death in the world right now is obesity. Obesity can be changed with two simple habits - eating healthy meals and exercising. Still, people are obese.
 
@@ -21,7 +21,7 @@ In summary: Don&#39;t try to implement a habit you cannot stick to for a month.
 
 With this in mind, committing to writing every week is the only way to keep this blog alive. More specifically, I&#39;ve committed to writing one article that is &quot;good enough&quot; every week in May. Hopefully, I will be able to do that.
 
-# How do I improve?
+## How do I improve?
 
 Another reason for my previous failures is that I didn&#39;t get any feedback. Feedback is the only way to improve, but it&#39;s hard to get good feedback. You can ask a friend what they think about your blog, and they will probably say it&#39;s excellent. You can request feedback from a stranger, and they will probably not take the time to give feedback.
 
@@ -33,7 +33,7 @@ In summary: Committing to the habit of asking for feedback every week is my plan
 
 Moreover, a lack of structure is a clear pattern from the information above. There has been no clear structure to my writing process. I would just start writing, and nothing would really happen. That is why I have decided to structure the process of writing.
 
-# So what is this magical process?
+## So what is this magical process?
 
 I&#39;m glad you asked. A lot of research has gone into finding a process that might work.
 
@@ -43,7 +43,7 @@ Besides, I read a lot of different books - from universities, companies, and oth
 
 1. Collect the information.
 2. Write a draft.
-3.
+3. Revise.
 4. Profit!
 
 With this blog being more casual, it felt a bit too strict. Posts like this one are not really based on information from external sources, but rather my personal anecdote. When you are writing about a library you are writing in Rust, collecting data is not useful.
@@ -58,15 +58,15 @@ These courses have been the primary basis for my process and approach to improve
 
 The process I landed on looks like this:
 
-## 1: Collecting ideas
+### 1: Collecting ideas
 
 The first step is finding stuff to write about. I have many sources of inspiration. I&#39;m currently in the process of starting a software company, so there are a lot of ideas stemming from that. There are also a lot of ideas coming from other places.
 
-## 2: Curate and organize ideas
+### 2: Curate and organize ideas
 
 This is where I&#39;ve been naughty before. The idea behind this post is to explain my writing process.
 
-## 3: Develop the ideas
+### 3: Develop the ideas
 
 This is where the actual writing comes in.
 
@@ -76,19 +76,19 @@ This is where the actual writing comes in.
 4. Revise as many times as you need.
 5. Profit!
 
-## 4: Profit!
+### 4: Profit!
 
 Publish the article to _Complex Codes_ and get feedback!
 
 That is my process. If you are reading this article, the process worked :D
 
-# I&#39;m confused, what is this blog then? An experiment?
+## I&#39;m confused, what is this blog then? An experiment?
 
 The goal of this blog is to write articles that I can learn from and that others will find useful. My theory is that if I write about the topics, I&#39;m most passionate about that my writings will be helpful. Those topics are mainly technical.
 
 Because I&#39;m a Software Engineer, this blog will be hard to understand if you are not one.
 
-## Topics I want to cover:
+### Topics I want to cover:
 
 - Databases
 - Software engineering
@@ -97,7 +97,7 @@ Because I&#39;m a Software Engineer, this blog will be hard to understand if you
 
 I also want to prepare talks on those subjects, but that is for a separate article.
 
-# This seems like a struggle for you. Why all the drama?
+## This seems like a struggle for you. Why all the drama?
 
 There are three main reasons:
 
