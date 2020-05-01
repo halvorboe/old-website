@@ -2,94 +2,107 @@
 title: "Blogging by dummies"
 date: "2020-05-01T22:12:04.284Z"
 description: ""
-views: 10
-draft: true
+views: 999
+draft: false
 ---
+A handful of times in the last five years, I&#39;ve tried to start a blog - and then consecutively failed. With this blog, that trend is going to change. At least that&#39;s the plan.
 
-A handful of times in the last five years, I&#39;ve tried to start a blog - and consecutively failed. With &quot;_Complex Codes_&quot; the trend is hopefully going to change. When writing this, the hope is that it will help me reflect and actually make a change.
+You might have been in the same circle as me before. A sudden spurt of inspiration makes you start a blog. The first week is perfect, and everything is on the up-and-up. Then real life hits, and you realize that you don&#39;t have the time to blog.
 
-## Why did I fail before?
+That is the circle I&#39;m trying to break out of. And from my experience, the best way to break out of a repeating pattern is to not repeat the pattern. A post-mortem is a technique for that, so...
 
-Implementing new habits is hard. Research has shown that it takes around a month for a pattern to become a habit. In other words, committing to a new habit is useless if you cannot keep repeating the pattern for a month.
+# Why did I fail before?
 
-Therefore, committing to blogging every week for a month is the basis for this blog. More specificly I&#39;ve commited to writing an article a week, and spending some time every day writing. Hopefully that will be enought for the habit to stick.
+Implementing new habits is scientifically proven to be hard. For example, the leading cause of death in the world right now is obesity. Obesity can be changed with two simple habits - eating healthy meals and exercising. Still, people are obese.
 
-Research has also shown that commiting publiclly in a way where failiure is humiliating helps. When I say research has hw
+The problem with implementing new habits is that you have to stick to them for about a month _manually_ before they become _automatic_. Going back to the example above. Eating healthy food for a week does not help, two weeks will be better but still not help, eating for a month will probably give you a lasting effect.
 
-Another reason for mye previous failiues was the fact that I did not get any feedback on the work I was doing. Feedback is crucial to improve and feel that you are learning. Constructive feedback is encuraging as well as positive feedback.
+In summary: Don&#39;t try to implement a habit you cannot stick to for a month.
 
-Grammarly is a great tool for getting feedback instantly.
+With this in mind, committing to writing every week is the only way to keep this blog alive. More specifically, I&#39;ve committed to writing one article that is &quot;good enough&quot; every week in May. Hopefully, I will be able to do that.
 
-The last reason for failiure was that I had no idea how to write. Meaning that I did not have a process for writing. I&#39;m used to writing software. There I have a clear process.
+# How do I improve?
 
-In summary, the reason why I failed was that I did not publicly commit so following a process. So now it makes sense to publih the process and commit to it.
+Another reason for my previous failures is that I didn&#39;t get any feedback. Feedback is the only way to improve, but it&#39;s hard to get good feedback. You can ask a friend what they think about your blog, and they will probably say it&#39;s excellent. You can request feedback from a stranger, and they will probably not take the time to give feedback.
 
-## So what is this magical process?
+To solve this problem, I&#39;ll create a newsletter with a form where people I know can send anonymous feedback. Hopefully, that will give me tons of constructive feedback. This also serves as a great way to get the effect of &quot;publicly committing&quot; to a habit.
+
+The newsletter will be my way of getting slow feedback, but instant feedback is also useful. This is why I have looked into sources of instantaneous feedback. My current solution for that is Grammarly - where I&#39;m writing this. It gives me immediate feedback on my writing, which helps me write better quickly.
+
+In summary: Committing to the habit of asking for feedback every week is my plan.
+
+Moreover, a lack of structure is a clear pattern from the information above. There has been no clear structure to my writing process. I would just start writing, and nothing would really happen. That is why I have decided to structure the process of writing.
+
+# So what is this magical process?
 
 I&#39;m glad you asked. A lot of research has gone into finding a process that might work.
 
-It started with Google&#39;s course on technical writing (link). From that course I got a lot of good tips on how to make your writing more coheirant.
+My research started when I found a [course](https://developers.google.com/tech-writing) from _Google_ on technical writing. The course had a lot of tips on how to make your text easier to comprehend. For example, in the last sentence, I could have written, &quot;It had a lot ...&quot;, but &quot;The course had a lot ...&quot; is much easier for a reader to understand.
 
-Another source was a book on technical writing. All of them say the same thing, which is:
+Besides, I read a lot of different books - from universities, companies, and other sources - about how to write better. The typical process appeared:
 
 1. Collect the information.
 2. Write a draft.
 3.
 4. Profit!
 
-With this beeing a more casual and personal blog that became a bit too strict. A lot of my posts will be about random stuff I&#39;m working on - because that is what I like to write about.
+With this blog being more casual, it felt a bit too strict. Posts like this one are not really based on information from external sources, but rather my personal anecdote. When you are writing about a library you are writing in Rust, collecting data is not useful.
 
-_Ninja Writing Course_ (link) has been a great help in the process of writing.
+The next source I looked at was courses on writing. I found a course on _Coursera, which_ was terrible. On _Udemy_, a site I hate to love, I found 3 great courses:
 
-I&#39;ve also been trying to find books on how to write better.
+- Ninja writing: The Four Levels Of Writer Mastery ([link](https://www.udemy.com/course/ninja-writing-the-four-levels-of-writing-mastery/))
+- Writing Tools &amp; Hacks: Copywriting/Blogging/Content Writing ([link](https://www.udemy.com/course/writing-tools-hacks/))
+- 3-Step Writing System: Blogging &amp; Writing Secrets [2020] ([link](https://www.udemy.com/course/3-step-writing-system/))
 
-Here is the process I&#39;ve come up with:
+These courses have been the primary basis for my process and approach to improve my writing. The ninja writing course is really dense, and my usual method of going through courses at 2x speed did not really work. The same cannot be said about the two others, which are more a set of useful tips.
 
-### 1: Collecting ideas
+The process I landed on looks like this:
 
-The first step is finding stuff to write about. I have many sources of inspiration. I&#39;m currently in the process of starting a software company, so there are a lot of ideas stemming from that. There are also a lot of ideas comming from other places.
+## 1: Collecting ideas
 
-### 2: Curate and organize ideas
+The first step is finding stuff to write about. I have many sources of inspiration. I&#39;m currently in the process of starting a software company, so there are a lot of ideas stemming from that. There are also a lot of ideas coming from other places.
 
-This is where I&#39;ve been really bad before. The idea behind this post is to explain my writing process.
+## 2: Curate and organize ideas
 
-### 3: Develop the ideas
+This is where I&#39;ve been naughty before. The idea behind this post is to explain my writing process.
+
+## 3: Develop the ideas
 
 This is where the actual writing comes in.
 
-1. Create a mindmap
-2. Extract structure from the mindmap
-3. Fill in the gaps
-4. Revise
+1. Create a mindmap.
+2. Extract structure from the mindmap.
+3. Write a draft with that structure.
+4. Revise as many times as you need.
 5. Profit!
 
-### 4: Profit!
+## 4: Profit!
 
-Publish the article to _Complex Codes_.
+Publish the article to _Complex Codes_ and get feedback!
 
-That is my process. If you are reading this article the process worked :D
+That is my process. If you are reading this article, the process worked :D
 
-## I&#39;m confused, what is this blog then? An experiment?
+# I&#39;m confused, what is this blog then? An experiment?
 
-This blog is whatever I want it to be. I want to focus on technical topics, because that is what I&#39;m most passionate about.
+The goal of this blog is to write articles that I can learn from and that others will find useful. My theory is that if I write about the topics, I&#39;m most passionate about that my writings will be helpful. Those topics are mainly technical.
 
-The blog is for software engineers. I&#39;m a software Engineer myself, so the blog is written for an alternative self. But here are the topics an alternative self would be interested in:
+Because I&#39;m a Software Engineer, this blog will be hard to understand if you are not one.
 
-### Topics I want to cover:
+## Topics I want to cover:
 
 - Databases
 - Software engineering
 - User interactions
 - Projects
 
-If you find this blog useful, that would be really cool.
+I also want to prepare talks on those subjects, but that is for a separate article.
 
-## This seems like a struggle for you. Why all the drama?
+# This seems like a struggle for you. Why all the drama?
 
 There are three main reasons:
 
-Firstly, I want to get better at writing.
+- I want to get better at writing.
+- I want to be able to communicate more efficiently.
+- I want to have a blog as a chill side-hustle.
 
-Secondly, I want to be able to communicate more efficiently.
-
-Thirdly, this would be a cool side-hustle.
+Thank you for reading. If you have any questions, feel free to contact me at _hfb@complex.codes_.
