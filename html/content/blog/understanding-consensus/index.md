@@ -1,6 +1,6 @@
 ---
 title: "Understanding Algorithms for Distributed Consensus"
-date: "2020-04-28T23:12:04.284Z"
+date: "2020-05-02T23:12:04.284Z"
 description: ""
 views: 10
 draft: true
