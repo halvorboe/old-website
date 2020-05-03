@@ -1,18 +1,28 @@
-import React, {Fragment} from "react"
+import React, { Fragment, Children } from "react"
 
 const Box = props => {
   const style = props.light
     ? {
         color: "black",
-        backgroundColor: "#eee",
+        backgroundColor: "#F7F7F7",
+        border: "2px solid #777",
+        boxShadow: "5px 10px #ddd",
       }
     : {
         color: "white",
-        backgroundColor: "orange",
+        backgroundColor: "#FF8939",
+        border: "2px solid #fff",
+        boxShadow: "5px 10px #ddd",
       }
-  return <Fragment>
-    {props.header ? <h2 style={{color: 'red'}}>{props.header}</h2> : null}
-    <div style={style}>{props.children}</div>
+  return (
+    <Fragment>
+      {props.header ? <h4>{props.header}</h4> : null}
+      <div className="box" style={style}>
+        <div className={props.row ? "row" : "column"} style={{display: "grid"}}>
+          {props.children}
+        </div>
+      </div>
     </Fragment>
+  )
 }
 export default Box

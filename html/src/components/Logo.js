@@ -7,22 +7,15 @@ const LogoImage = props => {
     query {
       placeholderImage: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
+          fixed(height: 30) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `)
 
-  return (
-    <Img
-      style={{
-        width: 370,
-      }}
-      fluid={data.placeholderImage.childImageSharp.fluid}
-    />
-  )
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
 }
 
 export default LogoImage

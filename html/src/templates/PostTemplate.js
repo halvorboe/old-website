@@ -14,10 +14,9 @@ const PostTemplate = ({ data, pageContext, location }) => {
     <Layout>
       <h2> {post.frontmatter.date}</h2>
       <h1> {post.frontmatter.title}</h1>
-      <Box light>{post.excerpt}</Box>
       <section dangerouslySetInnerHTML={{ __html: post.html }} />
       <Bio />
-      <Analytics />
+      {/* <Analytics /> */}
     </Layout>
   )
 }
@@ -33,7 +32,7 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 160)
+      excerpt(pruneLength: 400)
       html
       frontmatter {
         title

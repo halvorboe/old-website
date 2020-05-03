@@ -5,7 +5,7 @@ import Box from "./Box"
 const Analytics = () => {
   return (
     <Box header="Analytics">
-      <h1>Analytics</h1>
+      <h3>Analytics</h3>
     </Box>
   )
 }

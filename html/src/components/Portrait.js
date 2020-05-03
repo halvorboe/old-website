@@ -7,22 +7,15 @@ const PortraitImage = props => {
     query {
       placeholderImage: file(relativePath: { eq: "portrait.jpeg" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 300, height: 300) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `)
 
-  return (
-    <Img
-      style={{
-        width: 370,
-      }}
-      fluid={data.placeholderImage.childImageSharp.fluid}
-    />
-  )
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
 }
 
 export default PortraitImage

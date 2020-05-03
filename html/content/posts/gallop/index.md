@@ -12,7 +12,7 @@ I don't like the business model of _Google Analytics_. It exists to serve advert
 
 So I decided to create my own "Google Analytics" - **with a focus on privacy**.
 
-### But wait... have you considered other options?
+## But wait... have you considered other options?
 
 "Google Analytics" is far from the only analytics platform out there. Some of the ones I have considered are:
 
@@ -22,7 +22,7 @@ So I decided to create my own "Google Analytics" - **with a focus on privacy**.
 
 Just to be clear, I do not think this solution will be better than any of those. The main purpose of this solution is killing time and having something to write about.
 
-### So what is an analytics platform?
+## So what is an analytics platform?
 
 To me, an analytics platform is **a system for aggregating events**. In that defenition there are two main words that need explaination - **event** and **aggregation**.
 

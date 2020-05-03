@@ -4,11 +4,13 @@ import { Link } from "gatsby"
 const PostPreview = ({ post }) => {
   const { frontmatter, fields, excerpt } = post.node
   return (
+    <div style={{margin: "15px 10px 30px 10px" }}>
     <Link to={fields.slug}>
-      <h2>{frontmatter.date}</h2>
-      <h1>{frontmatter.title}</h1>
+      <h3>{frontmatter.date}</h3>
+      <h2>{frontmatter.title}</h2>
       <p>{excerpt}</p>
     </Link>
+    </div>
   )
 }
 
