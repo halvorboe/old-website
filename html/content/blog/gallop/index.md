@@ -71,15 +71,15 @@ Doing these aggregations and letting the user query them is the main job of an a
 
 ## I understand, but where does Gallop come in?
 
-Gallop is not a analytics platform, or at least that is not the goal. The main goal of Gallop is to create a simple API where user submitted events can be processed and insights generated. 
+Gallop is not a analytics platform, or at least that is not the goal. The main goal of Gallop is to create a simple API where user submitted events can be processed and insights generated.
 
-I want to be able to build a dashboard on top of that GraphQL API that can show staticsics of the people visiting my site. 
+I want to be able to build a dashboard on top of that GraphQL API that can show staticsics of the people visiting my site.
 
 ![Hello world](./Drawing.png)
 
 So events generated when people visit the different pages on my site will be collected and aggregated with an indexer. This indexer will put the events into an index where they can be easily queried.
 
-I will write more blog posts about the different aspects of the projects. The next one will be about the GraphQL API. 
+I will write more blog posts about the different aspects of the projects. The next one will be about the GraphQL API.
 
 ## Sounds cool. What will the finnished project look like?
 

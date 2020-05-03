@@ -6,41 +6,39 @@ views: 10
 draft: true
 ---
 
-
-<!-- 
+<!--
 
 Getting humans to agree on what's right or wrong is really hard. Making machines agree is should be much easier - in theory. That is until you realize that a machine can die at any time, can loose its ability to speak and so on. In this blog post I'll go throught the paper called "Paxos vs Raft: Have we reached consensus on distributed consensus?" and try to explain what the different algorithms do.
 
 
-Paper 
+Paper
 
 Abstract
-- Consensus is critical 
-- Two main algorithms 
+- Consensus is critical
+- Two main algorithms
     - Paxos
     - Raft
-- Raft is simpler 
+- Raft is simpler
 
-Introduction 
-- State machine replication 
+Introduction
+- State machine replication
     - Paxos is the defecto algorithm -> hard to understand
 - Raft is simpler whilst being as efficient
-- Reft 
+- Reft
     - Presentation
         - Pragmatic
-    - Simplicity 
-        - Simlicity over performance 
+    - Simplicity
+        - Simlicity over performance
     - Underlying algorithm
         - Novel approach to lear election
-- Paxos is a family of algorithms 
-    - Chubby 
+- Paxos is a family of algorithms
+    - Chubby
 - No difference in understandability
 
-Background 
-- 
+Background
+-
 
 -->
-
 
 Imagine you are a general trying to coordinate an attack together with another friendly general. The only way to win the battle is if both attack at the same time. Both of you have a radio transmitter that can transmit and receive morse code. The transmitter runs of battery, so you cannot keep it on all the time. How do you coordinate the attack?
 

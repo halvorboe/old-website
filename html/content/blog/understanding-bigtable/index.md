@@ -6,7 +6,7 @@ views: 0
 draft: true
 ---
 
-<!-- Introduction 
+<!-- Introduction
 Explaining what this article is and what Bigtable is.
 -->
 
@@ -18,18 +18,14 @@ Firstly, let's take a look at the abstract of the paper:
 
 > Bigtable is a distributed storage system for managing structured data that is designed to scale to a very large size: petabytes of data across thousands of commodity servers. Many projects at Google store data in Bigtable, including web indexing, Google Earth, and Google Finance. These applications place very different demands on Bigtable, both in terms of data size (from URLs to web pages to satellite imagery) and latency requirements (from backend bulk processing to real-time data serving). Despite these varied demands, Bigtable has successfully provided a flexible, high-performance solution for all of these Google products. In this paper we describe the simple data model provided by Bigtable, which gives clients dynamic control over data layout and format, and we describe the design and implementation of Bigtable.
 
-Basicly - Bigtable is a distributed datastore that scales well for a lot of different usecases. 
+Basicly - Bigtable is a distributed datastore that scales well for a lot of different usecases.
 
-... 
+...
 
 So how does it scale.
 
-
-
-
-
-
 ### Further reading
+
 [Paper]("https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf")
 
 [Summary of paper]("http://courses.cs.vt.edu/cs5204/fall11-kafura/Student-Presentations/Bigtable-Notes.pdf")

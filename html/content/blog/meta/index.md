@@ -5,6 +5,7 @@ description: ""
 views: 999
 draft: false
 ---
+
 A handful of times in the last five years, I&#39;ve tried to start a blog - and then consecutively failed. With this blog, that trend is going to change. At least that&#39;s the plan.
 
 You might have been in the same circle as me before. A sudden spurt of inspiration makes you start a blog. The first week is perfect, and everything is on the up-and-up. Then real life hits, and you realize that you don&#39;t have the time to blog.
@@ -52,7 +53,7 @@ The next source I looked at was courses on writing. I found a course on _Courser
 
 - Ninja writing: The Four Levels Of Writer Mastery ([link](https://www.udemy.com/course/ninja-writing-the-four-levels-of-writing-mastery/))
 - Writing Tools &amp; Hacks: Copywriting/Blogging/Content Writing ([link](https://www.udemy.com/course/writing-tools-hacks/))
-- 3-Step Writing System: Blogging &amp; Writing Secrets [2020] ([link](https://www.udemy.com/course/3-step-writing-system/))
+- 3-Step Writing System: Blogging &amp; Writing Secrets [2020](<[link](https://www.udemy.com/course/3-step-writing-system/)>)
 
 These courses have been the primary basis for my process and approach to improve my writing. The ninja writing course is really dense, and my usual method of going through courses at 2x speed did not really work. The same cannot be said about the two others, which are more a set of useful tips.
 

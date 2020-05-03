@@ -20,14 +20,18 @@ const About = () => (
         padding: 0,
       }}
     >
-      <div style={{ margin: '45px -150px 30px 30px' }}>
+      <div style={{ margin: "45px -150px 30px 30px" }}>
         <PortraitImage width={"300px"} height={"300px"} />
       </div>
       <Box>
         <div style={{ padding: 0, margin: 30, marginLeft: 180 }}>
           <h1>Halvor Fladsrud Bø (21)</h1>
           <p>
-            Hi! I'm a Computer Engineering student with a passion for Software Engineering, starting companies and design. On this blog I will write about what I'm learning. It exists for me to learn, more than for others to read - but it would be cool if other people enjoyed my writing.
+            Hi! I'm a Computer Engineering student with a passion for Software
+            Engineering, starting companies and design. On this blog I will
+            write about what I'm learning. It exists for me to learn, more than
+            for others to read - but it would be cool if other people enjoyed my
+            writing.
           </p>
           <h3 style={{ padding: 0, margin: 0, marginTop: -10 }}>
             <FaLinkedin /> <FaGithub />
@@ -43,11 +47,28 @@ const About = () => (
       </p>
       <h3>Programming languages</h3>
       <ul>
-        <li><strong>Python</strong> - my "go to" language for any project. Has never failed me. 'MyPy' is a must.</li>
-        <li><strong>Go</strong> - my "favorite" language when working with others. It is really simple and there is only one way to do stuff. People need to do the same.</li>
-        <li><strong>Java</strong> - my "most hated" and "most loved" language depending on the day. I enjoy working on large projects written in Java, but I would never use it for a personal project.</li>
-        <li><strong>Kotlin</strong> - my "go to" functional language. </li>
-        <li><strong>Rust</strong> - my "favorite" language for writing performant code. Love wrestling with the borrow checker. I try to contribute to the open source community around rust.</li>
+        <li>
+          <strong>Python</strong> - my "go to" language for any project. Has
+          never failed me. 'MyPy' is a must.
+        </li>
+        <li>
+          <strong>Go</strong> - my "favorite" language when working with others.
+          It is really simple and there is only one way to do stuff. People need
+          to do the same.
+        </li>
+        <li>
+          <strong>Java</strong> - my "most hated" and "most loved" language
+          depending on the day. I enjoy working on large projects written in
+          Java, but I would never use it for a personal project.
+        </li>
+        <li>
+          <strong>Kotlin</strong> - my "go to" functional language.{" "}
+        </li>
+        <li>
+          <strong>Rust</strong> - my "favorite" language for writing performant
+          code. Love wrestling with the borrow checker. I try to contribute to
+          the open source community around rust.
+        </li>
         <li>C++</li>
         <li>Racket</li>
         <li>JS</li>
