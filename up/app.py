@@ -14,7 +14,7 @@ app = Sanic(__name__)
 
 
 def convert(docx, markdown):
-    subprocess.call(f"pandoc -s {docx} -t markdown -o {markdown}".split())
+    subprocess.call(f"pandoc -s {docx} -t markdown_github -o {markdown}".split())
 
 
 @app.route("/", methods=["POST", "GET"])
@@ -55,5 +55,4 @@ def make_dir(name):
 if __name__ == "__main__":
     make_dir(TEMP)
     make_dir(UPLOADS)
-
     app.run(host="0.0.0.0", port=8080, debug=True)
