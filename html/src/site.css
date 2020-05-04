@@ -28,7 +28,7 @@ h4 {
 }
 
 p, li, ol, ul {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300; 
     line-height: 135%;
 }
@@ -68,13 +68,31 @@ a {
 
 /* Grid */
 
+
 .row {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
 }
+.item {
+    border-right: 2px solid white;
+}
+@media only screen and (max-width: 800px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+    .portrait {
+        display: none;
+    }
+    .item {
+        border-right: none;
+        border-bottom: 2px solid white;
+    }
+  }
+
+
 
 .column {
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
 
 }
@@ -94,8 +112,12 @@ a {
 }
 
 /* Markdown */
-section > h1, section > h2, section > h3, section > h4, section > p, section > ol, section > ul {
+section > h1, section > h2, section > h3, section > h4 {
     margin: 40px 0 20px 0;
+}
+
+section > p, section > ol, section > ul {
+    margin: 20px 0 20px 0; 
 }
 
 section > ol, section > ul {

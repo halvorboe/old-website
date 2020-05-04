@@ -5,20 +5,23 @@ const Box = props => {
     ? {
         color: "black",
         backgroundColor: "#F7F7F7",
-        border: "2px solid #777",
+        border: "3px solid #888",
         boxShadow: "5px 10px #ddd",
       }
     : {
         color: "white",
         backgroundColor: "#FF8939",
-        border: "2px solid #fff",
+        border: "3px solid #fff",
         boxShadow: "5px 10px #ddd",
       }
   return (
     <Fragment>
       {props.header ? <h4>{props.header}</h4> : null}
       <div className="box" style={style}>
-        <div className={props.row ? "row" : "column"} style={{display: "grid"}}>
+        <div
+          className={props.row ? "row" : "column"}
+          style={{ display: "grid" }}
+        >
           {props.children}
         </div>
       </div>

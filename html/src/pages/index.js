@@ -15,30 +15,33 @@ const IndexPage = ({ data, locations }) => {
       </div>
       <div>
         <div>
-          <h3>🔥{" "}Trending posts</h3>
+          <h3>🔥 Trending posts</h3>
           <Box row>
             {trending.map((post, index) => {
-              console.log(index);
-              const style = {};
-              if ((index + 1) % 3 !== 0) {
-                style["borderRight"] = "2px solid white"
-              }
-              return <div style={style}><PostPreview key={post.node.fields.slug} post={post} /></div>
+              return (
+                <div className={(index + 1) % 3 !== 0 ? "item" : "last"}>
+                  <PostPreview key={post.node.fields.slug} post={post} />
+                </div>
+              )
             })}
           </Box>
         </div>
       </div>
       <div>
         <div>
-          <h3>🗄{" "}Archive</h3>
+          <h3>🗄 Archive</h3>
           {months.map(month => {
             return (
               <Box key={month.tag} header={month.tag} light>
                 {month.posts.map(post => {
-                  const style = post.isMore ? {borderBottom: "2px solid #777"} : {};
-                  return <div style={style}>
-                    <PostPreview key={post.node.fields.slug} post={post} />
-                  </div>
+                  const style = post.isMore
+                    ? { borderBottom: "2px solid #777" }
+                    : {}
+                  return (
+                    <div style={style}>
+                      <PostPreview key={post.node.fields.slug} post={post} />
+                    </div>
+                  )
                 })}
               </Box>
             )
