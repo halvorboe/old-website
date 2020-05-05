@@ -142,3 +142,7 @@ section > p, section > ol, section > ul {
 section > ol, section > ul {
     margin-left: 30px;
 }
+
+section {
+    margin: 0 15px;
+}

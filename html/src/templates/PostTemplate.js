@@ -12,8 +12,10 @@ const PostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout>
+      <section>
       <h2> {post.frontmatter.date}</h2>
       <h1> {post.frontmatter.title}</h1>
+      </section>
       <section dangerouslySetInnerHTML={{ __html: post.html }} />
       <Bio />
       {/* <Analytics /> */}
