@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /* Font-sizes */
 
 h1 {
@@ -28,13 +29,14 @@ h4 {
 }
 
 p, li, ol, ul {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300; 
     line-height: 135%;
 }
 
 .icons {
     font-size: 24px;
+    line-height: 40px;
 }
 
 h1,h2,h3,h4,p,span {
@@ -103,6 +105,23 @@ a {
     padding: 15px 15px;
     border-radius: 10px;
     overflow: hidden;
+}
+
+
+.box-shadow {
+    padding-right: 3px;
+    margin-right: -3px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    background-image: radial-gradient(#aaa 30%, transparent 30%),
+        radial-gradient(#aaa 30%, transparent 30%);
+    /* background-color: #e53935; */
+    background-position: 0 0, 3px 3px;
+    background-size: 6px 6px;
+}
+
+.box-padding {
     margin-bottom: 60px;
 }
 

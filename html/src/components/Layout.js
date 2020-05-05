@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
           height: "10px",
           margin: "75px 0",
           backgroundColor: "#FF8939",
-          boxShadow: "0px 5px #ddd",
+          boxShadow: "0px 3px #ddd",
         }}
       />
       <div style={{ maxWidth: 800, margin: "auto" }}>{children}</div>
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
           height: "10px",
           margin: "75px 0",
           backgroundColor: "#FF8939",
-          boxShadow: "0px 5px #ddd",
+          boxShadow: "0px 3px #ddd",
         }}
       />
       <div style={{ maxWidth: 800, margin: "auto" }}>
