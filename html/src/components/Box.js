@@ -1,19 +1,33 @@
-import React from "react"
+import React, { Fragment, Children } from "react"
 
-const Box = ({ children }) => {
+const Box = props => {
+  const style = props.light
+    ? {
+        color: "black",
+        backgroundColor: "#F7F7F7",
+        border: "3px solid #888",
+        // boxShadow: "5px 10px #ddd",
+      }
+    : {
+        color: "white",
+        backgroundColor: "#FF8939",
+        border: "3px solid #fff",
+        // boxShadow: "5px 10px #ddd",
+      }
   return (
-    <div
-      style={{
-        border: "3px solid #EEE",
-        borderRadius: "5px",
-        padding: "0px",
-        width: "100%",
-        height: "100%",
-      }}
-    >
-      {children}
-    </div>
+    <Fragment>
+      {props.header ? <h4>{props.header}</h4> : null}
+      <div className="box-shadow box-padding">
+      <div className="box" style={style}>
+        <div
+          className={props.row ? "row" : "column"}
+          style={{ display: "grid" }}
+        >
+          {props.children}
+        </div>
+      </div>
+      </div>
+    </Fragment>
   )
 }
-
 export default Box

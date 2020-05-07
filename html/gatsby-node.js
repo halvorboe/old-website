@@ -12,7 +12,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/BlogPost.js`)
+  const postTemplate = path.resolve(`./src/templates/PostTemplate.js`)
   const result = await graphql(
     `
       {
@@ -48,7 +48,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: post.node.fields.slug,
-      component: blogPost,
+      component: postTemplate,
       context: {
         slug: post.node.fields.slug,
         previous,

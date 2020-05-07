@@ -1,41 +1,38 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
+import Portrait from "./Portrait"
 import Box from "./Box"
-import PortraitImage from "./PortraitImage"
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"
 
-const Bio = () => (
-  <Box>
-    <div style={{ display: "flex", flexDirection: "row" }}>
-      <div style={{ padding: 0, margin: 30 }}>
-        <PortraitImage width={170} height={170} />
-      </div>
-      <div style={{ padding: 0, margin: 30 }}>
-        <p>
-          Written by me - <strong>Halvor Fladsrud Bø</strong>. I'm currently a
-          full-time Computer Engineering student at NTNU in Trondheim, Norway.
-          This blog is a place where I can 'share' my niche interests without
-          loosing friends.{" "}
-          <Link to="/about/">
-            <strong>Read more...</strong>
-          </Link>
-        </p>
-        <h3 style={{ padding: 0, margin: 0, marginTop: -10 }}>
-          <FaLinkedin /> <FaGithub />
-        </h3>
-      </div>
+const Bio = () => {
+  return (
+    <div className="m-y">
+      <Box light>
+        <div style={{ display: "flex" }}>
+            <div className="portrait" style={{ margin: "-30px 30px -60px -30px" }}>
+              <Portrait />
+            </div>
+          
+          <div>
+            <h3>The Writer</h3>
+            <h1>Halvor Fladsrud Bø (21)</h1>
+            <p>
+              I'm currently a full-time Computer Engineering student at NTNU in
+              Trondheim, Norway. This blog is a place where I can 'share' my
+              niche interests without loosing friends.
+            </p>
+            <span className="icons" style={{ padding: "0 100" }}>
+              <a target="_blank" href="https://www.linkedin.com/in/halvorboe/"><FaLinkedin /></a>
+              {"            "}
+              <a target="_blank" href="https://github.com/halvorboe"><FaGithub /></a>
+              {"            "}
+              <a target="_blank" href="mailto:hfb@complex.codes"><FaEnvelope /></a>
+            </span>
+          </div>
+        </div>
+      </Box>
     </div>
-  </Box>
-)
-
-Bio.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Bio.defaultProps = {
-  siteTitle: ``,
+  )
 }
 
 export default Bio

@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/posts`,
+        name: `posts`,
       },
     },
     {
@@ -54,29 +54,39 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `complex-codes-blog`,
+        short_name: `complex-codes`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-plugin-typography",
-      options: {
-        pathToConfigModule: "src/utils/typography",
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-164691340-1"
-      }
-    }
+        trackingId: "UA-164691340-1",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Staatliches`,
+            variants: [`400`],
+          },
+          {
+            family: `Roboto Mono`,
+            variants: [`100`, `300`, `400`, `500`, `700`],
+          },
+          {
+            family: `Roboto`,
+            variants: [`100`, `300`, `400`, `500`, `700`, `900`],
+          },
+        ],
+      },
+    },
   ],
 }

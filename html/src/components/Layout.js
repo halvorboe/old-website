@@ -1,52 +1,43 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./Header"
-import Footer from "./Footer"
-import "./layout.css"
+import Logo from "./Logo"
+
+import "../site.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <div>
+      <div style={{ maxWidth: 800, margin: "auto" }}>
+        <header style={{ margin: "100px 0 40px 0" }}>
+          <Logo />
+        </header>
+      </div>
       <div
         style={{
-          margin: "auto",
           width: "100%",
-          maxWidth: "800px",
-          minHeight: "100vh",
+          height: "10px",
+          margin: "75px 0",
+          backgroundColor: "#FF8939",
+          boxShadow: "0px 3px #ddd",
         }}
-      >
-        <Header />
-        <div>
-          <main>{children}</main>
-        </div>
+      />
+      <div style={{ maxWidth: 800, margin: "auto" }}>{children}</div>
+      <div
+        style={{
+          width: "100%",
+          height: "10px",
+          margin: "75px 0",
+          backgroundColor: "#FF8939",
+          boxShadow: "0px 3px #ddd",
+        }}
+      />
+      <div style={{ maxWidth: 800, margin: "auto" }}>
+        <footer style={{ margin: "40px 0 100px 0" }}>
+          <h3>Made in 🇳🇴 with gatsby and 🤟</h3>
+        </footer>
       </div>
-      <Footer />
     </div>
-
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout
