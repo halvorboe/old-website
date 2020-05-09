@@ -1,29 +1,15 @@
 ---
-title: "Gallop: Indexing timestamps at lightspeed"
-date: "2020-04-30T22:12:04.284Z"
-description: ""
-views: 0
-draft: true
 ---
+This article is about the database I'm trying to build - \_gallop\_. If
+you have not read the first article, please do ;). In this article I'll
+describe how I use tantivy to efficently index and query timestamped
+events.
 
-<!--
-Prewriting:
-Idea: Writing about how search libraries can be used for timestamps.
-More ideas:
-- Tradeoffs
-- What libraries exists
-- What if the data does not fit in memory.
-- What if the events are the same.
-- Do you need to store induvidual events.
-- Can you update events tantivy.
--->
+\#\# The challenge
 
-This article is about the database I'm trying to build - _gallop_. If you have not read the first article, please do ;). In this article I'll describe how I use tantivy to efficently index and query timestamped events.
+Working with event data is hard. Each event has a timestamp. There are a
+lot of different queries to consider.
 
-## The challenge
-
-Working with event data is hard. Each event has a timestamp. There are a lot of different queries to consider.
-
-## Solution
+\#\# Solution
 
 Creating indexes for days, hours, months.
