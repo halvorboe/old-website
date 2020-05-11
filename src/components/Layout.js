@@ -2,7 +2,7 @@ import React from "react";
 
 import Logo from "./Logo";
 
-import "../site.css";
+import "../layout.css";
 
 const Layout = ({ children }) => {
   return (
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
           <Logo />
         </header>
       </div>
-      <div
+      {/* <div
         style={{
           width: "100%",
           height: "10px",
@@ -20,9 +20,9 @@ const Layout = ({ children }) => {
           backgroundColor: "#FF8939",
           boxShadow: "0px 3px #ddd",
         }}
-      />
+      /> */}
       <div style={{ maxWidth: 800, margin: "auto" }}>{children}</div>
-      <div
+      {/* <div
         style={{
           width: "100%",
           height: "10px",
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
           backgroundColor: "#FF8939",
           boxShadow: "0px 3px #ddd",
         }}
-      />
+      /> */}
       <div style={{ maxWidth: 800, margin: "auto" }}>
         <footer style={{ margin: "40px 0 100px 0" }}>
           <h3>Made in 🇳🇴 with gatsby and 🤟</h3>

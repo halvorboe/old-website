@@ -7,7 +7,8 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 const Bio = () => {
   return (
     <div className="m-y">
-      <Box light>
+      <h3>👨 About me</h3>
+      <Box >
         <div style={{ display: "flex" }}>
           <div
             className="portrait"

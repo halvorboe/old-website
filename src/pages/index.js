@@ -14,7 +14,7 @@ const IndexPage = ({ data, locations }) => {
         <Bio />
       </div>
       <div>
-        <div>
+        <div className="m-y">
           <h3>🔥 Trending posts</h3>
           <Box row>
             {trending.map((post, index) => {
@@ -28,14 +28,14 @@ const IndexPage = ({ data, locations }) => {
         </div>
       </div>
       <div>
-        <div>
+        <div  className="m-y">
           <h3>🗄 Archive</h3>
           {months.map((month) => {
             return (
               <Box key={month.tag} header={month.tag} light>
                 {month.posts.map((post) => {
                   const style = post.isMore
-                    ? { borderBottom: "2px solid #777" }
+                    ? { borderBottom: "2px solid #fff" }
                     : {};
                   return (
                     <div style={style}>
