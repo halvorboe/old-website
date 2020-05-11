@@ -61,8 +61,6 @@ p, ol, ul {
 }
 
 
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -107,7 +105,7 @@ a {
     overflow: hidden;
 }
 
-
+/* 
 .box-shadow {
     padding-right: 3px;
     margin-right: -3px;
@@ -116,10 +114,9 @@ a {
     border-radius: 10px;
     background-image: radial-gradient(#aaa 30%, transparent 30%),
         radial-gradient(#aaa 30%, transparent 30%);
-    /* background-color: #e53935; */
     background-position: 0 0, 3px 3px;
     background-size: 6px 6px;
-}
+} */
 
 .box-padding {
     margin-bottom: 60px;
@@ -145,4 +142,13 @@ section > ol, section > ul {
 
 section {
     margin: 0 15px;
+}
+
+/* About */
+
+.portrait {
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url(https://i.imgur.com/gf2ZFUp.jpg);
 }

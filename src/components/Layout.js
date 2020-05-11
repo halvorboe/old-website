@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-import Logo from "./Logo"
+import Logo from "./Logo";
 
-import "../site.css"
+import "../site.css";
 
 const Layout = ({ children }) => {
   return (
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         </footer>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -1,1 +1,924 @@
-{"expireTime":9007200843919224000,"key":"transformer-remark-markdown-ast-4cb92309f3830e35a4f488396f44cf9e-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypants-","val":{"type":"root","children":[{"type":"paragraph","children":[{"type":"text","value":"Collecting information about the people visiting your site is crucial - if you want to know who is visiting your site. In the case of this blog, I would like to know if anyone is reading my posts. A lot of great solutions already exist. The most popular one is ","position":{"start":{"line":1,"column":1,"offset":0},"end":{"line":1,"column":262,"offset":261},"indent":[]}},{"type":"emphasis","children":[{"type":"text","value":"Google Analytics","position":{"start":{"line":1,"column":263,"offset":262},"end":{"line":1,"column":279,"offset":278},"indent":[]}}],"position":{"start":{"line":1,"column":262,"offset":261},"end":{"line":1,"column":280,"offset":279},"indent":[]}},{"type":"text","value":". Their ‘free’ offering will work perfectly for most people and is used by most sites you visit.","position":{"start":{"line":1,"column":280,"offset":279},"end":{"line":1,"column":376,"offset":375},"indent":[]}}],"position":{"start":{"line":1,"column":1,"offset":0},"end":{"line":1,"column":376,"offset":375},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"I don’t like the business model of ","position":{"start":{"line":3,"column":1,"offset":377},"end":{"line":3,"column":36,"offset":412},"indent":[]}},{"type":"emphasis","children":[{"type":"text","value":"Google Analytics","position":{"start":{"line":3,"column":37,"offset":413},"end":{"line":3,"column":53,"offset":429},"indent":[]}}],"position":{"start":{"line":3,"column":36,"offset":412},"end":{"line":3,"column":54,"offset":430},"indent":[]}},{"type":"text","value":". It exists to serve advertisers - so it tries to collect as much information as possible. Also, not all of that information is exposed to the entity running the site. For example, there is no way to export all data collected by ","position":{"start":{"line":3,"column":54,"offset":430},"end":{"line":3,"column":283,"offset":659},"indent":[]}},{"type":"emphasis","children":[{"type":"text","value":"Google Analytics","position":{"start":{"line":3,"column":284,"offset":660},"end":{"line":3,"column":300,"offset":676},"indent":[]}}],"position":{"start":{"line":3,"column":283,"offset":659},"end":{"line":3,"column":301,"offset":677},"indent":[]}},{"type":"text","value":". That means that at some point you will have to opt into their ","position":{"start":{"line":3,"column":301,"offset":677},"end":{"line":3,"column":365,"offset":741},"indent":[]}},{"type":"emphasis","children":[{"type":"text","value":"Google Analytics 360","position":{"start":{"line":3,"column":366,"offset":742},"end":{"line":3,"column":386,"offset":762},"indent":[]}}],"position":{"start":{"line":3,"column":365,"offset":741},"end":{"line":3,"column":387,"offset":763},"indent":[]}},{"type":"text","value":" plan - which offers deeper insights but is way to expensive for most people/companies.","position":{"start":{"line":3,"column":387,"offset":763},"end":{"line":3,"column":474,"offset":850},"indent":[]}}],"position":{"start":{"line":3,"column":1,"offset":377},"end":{"line":3,"column":474,"offset":850},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"So I decided to create my own “Google Analytics” - ","position":{"start":{"line":5,"column":1,"offset":852},"end":{"line":5,"column":52,"offset":903},"indent":[]}},{"type":"strong","children":[{"type":"text","value":"with a focus on privacy","position":{"start":{"line":5,"column":54,"offset":905},"end":{"line":5,"column":77,"offset":928},"indent":[]}}],"position":{"start":{"line":5,"column":52,"offset":903},"end":{"line":5,"column":79,"offset":930},"indent":[]}},{"type":"text","value":".","position":{"start":{"line":5,"column":79,"offset":930},"end":{"line":5,"column":80,"offset":931},"indent":[]}}],"position":{"start":{"line":5,"column":1,"offset":852},"end":{"line":5,"column":80,"offset":931},"indent":[]}},{"type":"heading","depth":2,"children":[{"type":"text","value":"But wait… have you considered other options?","position":{"start":{"line":7,"column":1,"offset":933},"end":{"line":7,"column":45,"offset":977},"indent":[]}}],"position":{"start":{"line":7,"column":1,"offset":933},"end":{"line":8,"column":45,"offset":1022},"indent":[1]}},{"type":"paragraph","children":[{"type":"text","value":"“Google Analytics” is far from the only analytics platform out there. Some of the ones I have considered are:","position":{"start":{"line":10,"column":1,"offset":1024},"end":{"line":10,"column":110,"offset":1133},"indent":[]}}],"position":{"start":{"line":10,"column":1,"offset":1024},"end":{"line":10,"column":110,"offset":1133},"indent":[]}},{"type":"list","ordered":false,"start":null,"spread":true,"children":[{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"Heap Analytic","position":{"start":{"line":12,"column":5,"offset":1139},"end":{"line":12,"column":18,"offset":1152},"indent":[]}}],"position":{"start":{"line":12,"column":5,"offset":1139},"end":{"line":12,"column":18,"offset":1152},"indent":[]}}],"position":{"start":{"line":12,"column":1,"offset":1135},"end":{"line":13,"column":1,"offset":1153},"indent":[1]}},{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"Amplitude","position":{"start":{"line":14,"column":5,"offset":1158},"end":{"line":14,"column":14,"offset":1167},"indent":[]}}],"position":{"start":{"line":14,"column":5,"offset":1158},"end":{"line":14,"column":14,"offset":1167},"indent":[]}}],"position":{"start":{"line":14,"column":1,"offset":1154},"end":{"line":15,"column":1,"offset":1168},"indent":[1]}},{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"Simple Analytics","position":{"start":{"line":16,"column":5,"offset":1173},"end":{"line":16,"column":21,"offset":1189},"indent":[]}}],"position":{"start":{"line":16,"column":5,"offset":1173},"end":{"line":16,"column":21,"offset":1189},"indent":[]}}],"position":{"start":{"line":16,"column":1,"offset":1169},"end":{"line":16,"column":21,"offset":1189},"indent":[]}}],"position":{"start":{"line":12,"column":1,"offset":1135},"end":{"line":16,"column":21,"offset":1189},"indent":[1,1,1,1]}},{"type":"paragraph","children":[{"type":"text","value":"Just to be clear, I do not think this solution will be better than any of those. The main purpose of this solution is killing time and having something to write about.","position":{"start":{"line":18,"column":1,"offset":1191},"end":{"line":18,"column":168,"offset":1358},"indent":[]}}],"position":{"start":{"line":18,"column":1,"offset":1191},"end":{"line":18,"column":168,"offset":1358},"indent":[]}},{"type":"heading","depth":2,"children":[{"type":"text","value":"So what is an analytics platform?","position":{"start":{"line":20,"column":1,"offset":1360},"end":{"line":20,"column":34,"offset":1393},"indent":[]}}],"position":{"start":{"line":20,"column":1,"offset":1360},"end":{"line":21,"column":34,"offset":1427},"indent":[1]}},{"type":"paragraph","children":[{"type":"text","value":"To me, an analytics platform is ","position":{"start":{"line":23,"column":1,"offset":1429},"end":{"line":23,"column":33,"offset":1461},"indent":[]}},{"type":"strong","children":[{"type":"text","value":"a system for aggregating events","position":{"start":{"line":23,"column":35,"offset":1463},"end":{"line":23,"column":66,"offset":1494},"indent":[]}}],"position":{"start":{"line":23,"column":33,"offset":1461},"end":{"line":23,"column":68,"offset":1496},"indent":[]}},{"type":"text","value":". In that defenition there are two main words that need explaination - ","position":{"start":{"line":23,"column":68,"offset":1496},"end":{"line":23,"column":139,"offset":1567},"indent":[]}},{"type":"strong","children":[{"type":"text","value":"event","position":{"start":{"line":23,"column":141,"offset":1569},"end":{"line":23,"column":146,"offset":1574},"indent":[]}}],"position":{"start":{"line":23,"column":139,"offset":1567},"end":{"line":23,"column":148,"offset":1576},"indent":[]}},{"type":"text","value":" and ","position":{"start":{"line":23,"column":148,"offset":1576},"end":{"line":23,"column":153,"offset":1581},"indent":[]}},{"type":"strong","children":[{"type":"text","value":"aggregation","position":{"start":{"line":23,"column":155,"offset":1583},"end":{"line":23,"column":166,"offset":1594},"indent":[]}}],"position":{"start":{"line":23,"column":153,"offset":1581},"end":{"line":23,"column":168,"offset":1596},"indent":[]}},{"type":"text","value":".","position":{"start":{"line":23,"column":168,"offset":1596},"end":{"line":23,"column":169,"offset":1597},"indent":[]}}],"position":{"start":{"line":23,"column":1,"offset":1429},"end":{"line":23,"column":169,"offset":1597},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"Let’s start by looking at what I mean by an ","position":{"start":{"line":25,"column":1,"offset":1599},"end":{"line":25,"column":45,"offset":1643},"indent":[]}},{"type":"strong","children":[{"type":"text","value":"event","position":{"start":{"line":25,"column":47,"offset":1645},"end":{"line":25,"column":52,"offset":1650},"indent":[]}}],"position":{"start":{"line":25,"column":45,"offset":1643},"end":{"line":25,"column":54,"offset":1652},"indent":[]}},{"type":"text","value":". An event in this context can be any action the user is doing on the site - loading the page, clicking a button, hovering the mouse over an element… You get the point. In code, that event could look something like:","position":{"start":{"line":25,"column":54,"offset":1652},"end":{"line":25,"column":269,"offset":1867},"indent":[]}}],"position":{"start":{"line":25,"column":1,"offset":1599},"end":{"line":25,"column":269,"offset":1867},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"These events will be generated while the user is visiting the site throught a tracking script. This tracking script will send events back to the server. The server will recieve an event that looks something like this:","position":{"start":{"line":27,"column":1,"offset":1869},"end":{"line":27,"column":218,"offset":2086},"indent":[]}}],"position":{"start":{"line":27,"column":1,"offset":1869},"end":{"line":27,"column":218,"offset":2086},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"The amount of these events varey. Some trackers track every mouse movement, while other trackers only track when a user enters a site. If there are a lot of these events there is no longer a point to looking at single events. We need to get the bigger picture.","position":{"start":{"line":29,"column":1,"offset":2088},"end":{"line":29,"column":261,"offset":2348},"indent":[]}}],"position":{"start":{"line":29,"column":1,"offset":2088},"end":{"line":29,"column":261,"offset":2348},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"This is where aggregations come in. Let’s say we have 1000 of the events above. Possible insights could be:","position":{"start":{"line":31,"column":1,"offset":2350},"end":{"line":31,"column":108,"offset":2457},"indent":[]}}],"position":{"start":{"line":31,"column":1,"offset":2350},"end":{"line":31,"column":108,"offset":2457},"indent":[]}},{"type":"list","ordered":false,"start":null,"spread":true,"children":[{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"What browsers are the users using?","position":{"start":{"line":33,"column":5,"offset":2463},"end":{"line":33,"column":39,"offset":2497},"indent":[]}}],"position":{"start":{"line":33,"column":5,"offset":2463},"end":{"line":33,"column":39,"offset":2497},"indent":[]}}],"position":{"start":{"line":33,"column":1,"offset":2459},"end":{"line":34,"column":1,"offset":2498},"indent":[1]}},{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"How many pages does the average user visit?","position":{"start":{"line":35,"column":5,"offset":2503},"end":{"line":35,"column":48,"offset":2546},"indent":[]}}],"position":{"start":{"line":35,"column":5,"offset":2503},"end":{"line":35,"column":48,"offset":2546},"indent":[]}}],"position":{"start":{"line":35,"column":1,"offset":2499},"end":{"line":36,"column":1,"offset":2547},"indent":[1]}},{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"How long does the average user stay on the site?","position":{"start":{"line":37,"column":5,"offset":2552},"end":{"line":37,"column":53,"offset":2600},"indent":[]}}],"position":{"start":{"line":37,"column":5,"offset":2552},"end":{"line":37,"column":53,"offset":2600},"indent":[]}}],"position":{"start":{"line":37,"column":1,"offset":2548},"end":{"line":37,"column":53,"offset":2600},"indent":[]}}],"position":{"start":{"line":33,"column":1,"offset":2459},"end":{"line":37,"column":53,"offset":2600},"indent":[1,1,1,1]}},{"type":"paragraph","children":[{"type":"text","value":"To answer these questions we need to do aggregations. Aggregations in simple terms is calculating something based on a set of events. If you are familiar with functional programming, most aggregations can be formulated as a reduce step. Something like:","position":{"start":{"line":39,"column":1,"offset":2602},"end":{"line":39,"column":253,"offset":2854},"indent":[]}}],"position":{"start":{"line":39,"column":1,"offset":2602},"end":{"line":39,"column":253,"offset":2854},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"Doing these aggregations and letting the user query them is the main job of an analytics platform.","position":{"start":{"line":41,"column":1,"offset":2856},"end":{"line":41,"column":99,"offset":2954},"indent":[]}}],"position":{"start":{"line":41,"column":1,"offset":2856},"end":{"line":41,"column":99,"offset":2954},"indent":[]}},{"type":"heading","depth":2,"children":[{"type":"text","value":"I understand, but where does Gallop come in?","position":{"start":{"line":43,"column":1,"offset":2956},"end":{"line":43,"column":45,"offset":3000},"indent":[]}}],"position":{"start":{"line":43,"column":1,"offset":2956},"end":{"line":44,"column":45,"offset":3045},"indent":[1]}},{"type":"paragraph","children":[{"type":"text","value":"Gallop is not a analytics platform, or at least that is not the goal. The main goal of Gallop is to create a simple API where user submitted events can be processed and insights generated.","position":{"start":{"line":46,"column":1,"offset":3047},"end":{"line":46,"column":189,"offset":3235},"indent":[]}}],"position":{"start":{"line":46,"column":1,"offset":3047},"end":{"line":46,"column":189,"offset":3235},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"I want to be able to build a dashboard on top of that GraphQL API that can show staticsics of the people visiting my site.","position":{"start":{"line":48,"column":1,"offset":3237},"end":{"line":48,"column":123,"offset":3359},"indent":[]}}],"position":{"start":{"line":48,"column":1,"offset":3237},"end":{"line":48,"column":123,"offset":3359},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"So events generated when people visit the different pages on my site will be collected and aggregated with an indexer. This indexer will put the events into an index where they can be easily queried.","position":{"start":{"line":50,"column":1,"offset":3361},"end":{"line":50,"column":200,"offset":3560},"indent":[]}}],"position":{"start":{"line":50,"column":1,"offset":3361},"end":{"line":50,"column":200,"offset":3560},"indent":[]}},{"type":"paragraph","children":[{"type":"text","value":"I will write more blog posts about the different aspects of the projects. The next one will be about the GraphQL API.","position":{"start":{"line":52,"column":1,"offset":3562},"end":{"line":52,"column":118,"offset":3679},"indent":[]}}],"position":{"start":{"line":52,"column":1,"offset":3562},"end":{"line":52,"column":118,"offset":3679},"indent":[]}},{"type":"heading","depth":2,"children":[{"type":"text","value":"Sounds cool. What will the finnished project look like?","position":{"start":{"line":54,"column":1,"offset":3681},"end":{"line":54,"column":56,"offset":3736},"indent":[]}}],"position":{"start":{"line":54,"column":1,"offset":3681},"end":{"line":55,"column":56,"offset":3792},"indent":[1]}},{"type":"paragraph","children":[{"type":"text","value":"Except from the fact that the project probably will never be finnished.","position":{"start":{"line":57,"column":1,"offset":3794},"end":{"line":57,"column":72,"offset":3865},"indent":[]}}],"position":{"start":{"line":57,"column":1,"offset":3794},"end":{"line":57,"column":72,"offset":3865},"indent":[]}},{"type":"list","ordered":true,"start":1,"spread":false,"children":[{"type":"listItem","spread":false,"checked":null,"children":[{"type":"paragraph","children":[{"type":"text","value":"There will be a dashboard on this site where users can see how many people have visited the site. There will also be analytics on a per article level. Hopefully this can be added to the statis site generor.","position":{"start":{"line":59,"column":5,"offset":3871},"end":{"line":59,"column":211,"offset":4077},"indent":[]}}],"position":{"start":{"line":59,"column":5,"offset":3871},"end":{"line":59,"column":211,"offset":4077},"indent":[]}}],"position":{"start":{"line":59,"column":1,"offset":3867},"end":{"line":59,"column":211,"offset":4077},"indent":[]}}],"position":{"start":{"line":59,"column":1,"offset":3867},"end":{"line":59,"column":211,"offset":4077},"indent":[]}}],"position":{"start":{"line":1,"column":1,"offset":0},"end":{"line":60,"column":1,"offset":4078}}}}
+{
+  "expireTime": 9007200843919224000,
+  "key": "transformer-remark-markdown-ast-4cb92309f3830e35a4f488396f44cf9e-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypants-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Collecting information about the people visiting your site is crucial - if you want to know who is visiting your site. In the case of this blog, I would like to know if anyone is reading my posts. A lot of great solutions already exist. The most popular one is ",
+            "position": {
+              "start": { "line": 1, "column": 1, "offset": 0 },
+              "end": { "line": 1, "column": 262, "offset": 261 },
+              "indent": []
+            }
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "value": "Google Analytics",
+                "position": {
+                  "start": { "line": 1, "column": 263, "offset": 262 },
+                  "end": { "line": 1, "column": 279, "offset": 278 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 1, "column": 262, "offset": 261 },
+              "end": { "line": 1, "column": 280, "offset": 279 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Their ‘free’ offering will work perfectly for most people and is used by most sites you visit.",
+            "position": {
+              "start": { "line": 1, "column": 280, "offset": 279 },
+              "end": { "line": 1, "column": 376, "offset": 375 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 1, "column": 1, "offset": 0 },
+          "end": { "line": 1, "column": 376, "offset": 375 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "I don’t like the business model of ",
+            "position": {
+              "start": { "line": 3, "column": 1, "offset": 377 },
+              "end": { "line": 3, "column": 36, "offset": 412 },
+              "indent": []
+            }
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "value": "Google Analytics",
+                "position": {
+                  "start": { "line": 3, "column": 37, "offset": 413 },
+                  "end": { "line": 3, "column": 53, "offset": 429 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 3, "column": 36, "offset": 412 },
+              "end": { "line": 3, "column": 54, "offset": 430 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ". It exists to serve advertisers - so it tries to collect as much information as possible. Also, not all of that information is exposed to the entity running the site. For example, there is no way to export all data collected by ",
+            "position": {
+              "start": { "line": 3, "column": 54, "offset": 430 },
+              "end": { "line": 3, "column": 283, "offset": 659 },
+              "indent": []
+            }
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "value": "Google Analytics",
+                "position": {
+                  "start": { "line": 3, "column": 284, "offset": 660 },
+                  "end": { "line": 3, "column": 300, "offset": 676 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 3, "column": 283, "offset": 659 },
+              "end": { "line": 3, "column": 301, "offset": 677 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ". That means that at some point you will have to opt into their ",
+            "position": {
+              "start": { "line": 3, "column": 301, "offset": 677 },
+              "end": { "line": 3, "column": 365, "offset": 741 },
+              "indent": []
+            }
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "value": "Google Analytics 360",
+                "position": {
+                  "start": { "line": 3, "column": 366, "offset": 742 },
+                  "end": { "line": 3, "column": 386, "offset": 762 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 3, "column": 365, "offset": 741 },
+              "end": { "line": 3, "column": 387, "offset": 763 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": " plan - which offers deeper insights but is way to expensive for most people/companies.",
+            "position": {
+              "start": { "line": 3, "column": 387, "offset": 763 },
+              "end": { "line": 3, "column": 474, "offset": 850 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 3, "column": 1, "offset": 377 },
+          "end": { "line": 3, "column": 474, "offset": 850 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "So I decided to create my own “Google Analytics” - ",
+            "position": {
+              "start": { "line": 5, "column": 1, "offset": 852 },
+              "end": { "line": 5, "column": 52, "offset": 903 },
+              "indent": []
+            }
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "with a focus on privacy",
+                "position": {
+                  "start": { "line": 5, "column": 54, "offset": 905 },
+                  "end": { "line": 5, "column": 77, "offset": 928 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 5, "column": 52, "offset": 903 },
+              "end": { "line": 5, "column": 79, "offset": 930 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ".",
+            "position": {
+              "start": { "line": 5, "column": 79, "offset": 930 },
+              "end": { "line": 5, "column": 80, "offset": 931 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 5, "column": 1, "offset": 852 },
+          "end": { "line": 5, "column": 80, "offset": 931 },
+          "indent": []
+        }
+      },
+      {
+        "type": "heading",
+        "depth": 2,
+        "children": [
+          {
+            "type": "text",
+            "value": "But wait… have you considered other options?",
+            "position": {
+              "start": { "line": 7, "column": 1, "offset": 933 },
+              "end": { "line": 7, "column": 45, "offset": 977 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 7, "column": 1, "offset": 933 },
+          "end": { "line": 8, "column": 45, "offset": 1022 },
+          "indent": [1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "“Google Analytics” is far from the only analytics platform out there. Some of the ones I have considered are:",
+            "position": {
+              "start": { "line": 10, "column": 1, "offset": 1024 },
+              "end": { "line": 10, "column": 110, "offset": 1133 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 10, "column": 1, "offset": 1024 },
+          "end": { "line": 10, "column": 110, "offset": 1133 },
+          "indent": []
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": true,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Heap Analytic",
+                    "position": {
+                      "start": { "line": 12, "column": 5, "offset": 1139 },
+                      "end": { "line": 12, "column": 18, "offset": 1152 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 12, "column": 5, "offset": 1139 },
+                  "end": { "line": 12, "column": 18, "offset": 1152 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 12, "column": 1, "offset": 1135 },
+              "end": { "line": 13, "column": 1, "offset": 1153 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Amplitude",
+                    "position": {
+                      "start": { "line": 14, "column": 5, "offset": 1158 },
+                      "end": { "line": 14, "column": 14, "offset": 1167 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 14, "column": 5, "offset": 1158 },
+                  "end": { "line": 14, "column": 14, "offset": 1167 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 14, "column": 1, "offset": 1154 },
+              "end": { "line": 15, "column": 1, "offset": 1168 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Simple Analytics",
+                    "position": {
+                      "start": { "line": 16, "column": 5, "offset": 1173 },
+                      "end": { "line": 16, "column": 21, "offset": 1189 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 16, "column": 5, "offset": 1173 },
+                  "end": { "line": 16, "column": 21, "offset": 1189 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 16, "column": 1, "offset": 1169 },
+              "end": { "line": 16, "column": 21, "offset": 1189 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 12, "column": 1, "offset": 1135 },
+          "end": { "line": 16, "column": 21, "offset": 1189 },
+          "indent": [1, 1, 1, 1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Just to be clear, I do not think this solution will be better than any of those. The main purpose of this solution is killing time and having something to write about.",
+            "position": {
+              "start": { "line": 18, "column": 1, "offset": 1191 },
+              "end": { "line": 18, "column": 168, "offset": 1358 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 18, "column": 1, "offset": 1191 },
+          "end": { "line": 18, "column": 168, "offset": 1358 },
+          "indent": []
+        }
+      },
+      {
+        "type": "heading",
+        "depth": 2,
+        "children": [
+          {
+            "type": "text",
+            "value": "So what is an analytics platform?",
+            "position": {
+              "start": { "line": 20, "column": 1, "offset": 1360 },
+              "end": { "line": 20, "column": 34, "offset": 1393 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 20, "column": 1, "offset": 1360 },
+          "end": { "line": 21, "column": 34, "offset": 1427 },
+          "indent": [1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "To me, an analytics platform is ",
+            "position": {
+              "start": { "line": 23, "column": 1, "offset": 1429 },
+              "end": { "line": 23, "column": 33, "offset": 1461 },
+              "indent": []
+            }
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "a system for aggregating events",
+                "position": {
+                  "start": { "line": 23, "column": 35, "offset": 1463 },
+                  "end": { "line": 23, "column": 66, "offset": 1494 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 23, "column": 33, "offset": 1461 },
+              "end": { "line": 23, "column": 68, "offset": 1496 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ". In that defenition there are two main words that need explaination - ",
+            "position": {
+              "start": { "line": 23, "column": 68, "offset": 1496 },
+              "end": { "line": 23, "column": 139, "offset": 1567 },
+              "indent": []
+            }
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "event",
+                "position": {
+                  "start": { "line": 23, "column": 141, "offset": 1569 },
+                  "end": { "line": 23, "column": 146, "offset": 1574 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 23, "column": 139, "offset": 1567 },
+              "end": { "line": 23, "column": 148, "offset": 1576 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": " and ",
+            "position": {
+              "start": { "line": 23, "column": 148, "offset": 1576 },
+              "end": { "line": 23, "column": 153, "offset": 1581 },
+              "indent": []
+            }
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "aggregation",
+                "position": {
+                  "start": { "line": 23, "column": 155, "offset": 1583 },
+                  "end": { "line": 23, "column": 166, "offset": 1594 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 23, "column": 153, "offset": 1581 },
+              "end": { "line": 23, "column": 168, "offset": 1596 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ".",
+            "position": {
+              "start": { "line": 23, "column": 168, "offset": 1596 },
+              "end": { "line": 23, "column": 169, "offset": 1597 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 23, "column": 1, "offset": 1429 },
+          "end": { "line": 23, "column": 169, "offset": 1597 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Let’s start by looking at what I mean by an ",
+            "position": {
+              "start": { "line": 25, "column": 1, "offset": 1599 },
+              "end": { "line": 25, "column": 45, "offset": 1643 },
+              "indent": []
+            }
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "event",
+                "position": {
+                  "start": { "line": 25, "column": 47, "offset": 1645 },
+                  "end": { "line": 25, "column": 52, "offset": 1650 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 25, "column": 45, "offset": 1643 },
+              "end": { "line": 25, "column": 54, "offset": 1652 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ". An event in this context can be any action the user is doing on the site - loading the page, clicking a button, hovering the mouse over an element… You get the point. In code, that event could look something like:",
+            "position": {
+              "start": { "line": 25, "column": 54, "offset": 1652 },
+              "end": { "line": 25, "column": 269, "offset": 1867 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 25, "column": 1, "offset": 1599 },
+          "end": { "line": 25, "column": 269, "offset": 1867 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "These events will be generated while the user is visiting the site throught a tracking script. This tracking script will send events back to the server. The server will recieve an event that looks something like this:",
+            "position": {
+              "start": { "line": 27, "column": 1, "offset": 1869 },
+              "end": { "line": 27, "column": 218, "offset": 2086 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 27, "column": 1, "offset": 1869 },
+          "end": { "line": 27, "column": 218, "offset": 2086 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "The amount of these events varey. Some trackers track every mouse movement, while other trackers only track when a user enters a site. If there are a lot of these events there is no longer a point to looking at single events. We need to get the bigger picture.",
+            "position": {
+              "start": { "line": 29, "column": 1, "offset": 2088 },
+              "end": { "line": 29, "column": 261, "offset": 2348 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 29, "column": 1, "offset": 2088 },
+          "end": { "line": 29, "column": 261, "offset": 2348 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "This is where aggregations come in. Let’s say we have 1000 of the events above. Possible insights could be:",
+            "position": {
+              "start": { "line": 31, "column": 1, "offset": 2350 },
+              "end": { "line": 31, "column": 108, "offset": 2457 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 31, "column": 1, "offset": 2350 },
+          "end": { "line": 31, "column": 108, "offset": 2457 },
+          "indent": []
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": true,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "What browsers are the users using?",
+                    "position": {
+                      "start": { "line": 33, "column": 5, "offset": 2463 },
+                      "end": { "line": 33, "column": 39, "offset": 2497 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 33, "column": 5, "offset": 2463 },
+                  "end": { "line": 33, "column": 39, "offset": 2497 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 33, "column": 1, "offset": 2459 },
+              "end": { "line": 34, "column": 1, "offset": 2498 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "How many pages does the average user visit?",
+                    "position": {
+                      "start": { "line": 35, "column": 5, "offset": 2503 },
+                      "end": { "line": 35, "column": 48, "offset": 2546 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 35, "column": 5, "offset": 2503 },
+                  "end": { "line": 35, "column": 48, "offset": 2546 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 35, "column": 1, "offset": 2499 },
+              "end": { "line": 36, "column": 1, "offset": 2547 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "How long does the average user stay on the site?",
+                    "position": {
+                      "start": { "line": 37, "column": 5, "offset": 2552 },
+                      "end": { "line": 37, "column": 53, "offset": 2600 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 37, "column": 5, "offset": 2552 },
+                  "end": { "line": 37, "column": 53, "offset": 2600 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 37, "column": 1, "offset": 2548 },
+              "end": { "line": 37, "column": 53, "offset": 2600 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 33, "column": 1, "offset": 2459 },
+          "end": { "line": 37, "column": 53, "offset": 2600 },
+          "indent": [1, 1, 1, 1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "To answer these questions we need to do aggregations. Aggregations in simple terms is calculating something based on a set of events. If you are familiar with functional programming, most aggregations can be formulated as a reduce step. Something like:",
+            "position": {
+              "start": { "line": 39, "column": 1, "offset": 2602 },
+              "end": { "line": 39, "column": 253, "offset": 2854 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 39, "column": 1, "offset": 2602 },
+          "end": { "line": 39, "column": 253, "offset": 2854 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Doing these aggregations and letting the user query them is the main job of an analytics platform.",
+            "position": {
+              "start": { "line": 41, "column": 1, "offset": 2856 },
+              "end": { "line": 41, "column": 99, "offset": 2954 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 41, "column": 1, "offset": 2856 },
+          "end": { "line": 41, "column": 99, "offset": 2954 },
+          "indent": []
+        }
+      },
+      {
+        "type": "heading",
+        "depth": 2,
+        "children": [
+          {
+            "type": "text",
+            "value": "I understand, but where does Gallop come in?",
+            "position": {
+              "start": { "line": 43, "column": 1, "offset": 2956 },
+              "end": { "line": 43, "column": 45, "offset": 3000 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 43, "column": 1, "offset": 2956 },
+          "end": { "line": 44, "column": 45, "offset": 3045 },
+          "indent": [1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Gallop is not a analytics platform, or at least that is not the goal. The main goal of Gallop is to create a simple API where user submitted events can be processed and insights generated.",
+            "position": {
+              "start": { "line": 46, "column": 1, "offset": 3047 },
+              "end": { "line": 46, "column": 189, "offset": 3235 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 46, "column": 1, "offset": 3047 },
+          "end": { "line": 46, "column": 189, "offset": 3235 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "I want to be able to build a dashboard on top of that GraphQL API that can show staticsics of the people visiting my site.",
+            "position": {
+              "start": { "line": 48, "column": 1, "offset": 3237 },
+              "end": { "line": 48, "column": 123, "offset": 3359 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 48, "column": 1, "offset": 3237 },
+          "end": { "line": 48, "column": 123, "offset": 3359 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "So events generated when people visit the different pages on my site will be collected and aggregated with an indexer. This indexer will put the events into an index where they can be easily queried.",
+            "position": {
+              "start": { "line": 50, "column": 1, "offset": 3361 },
+              "end": { "line": 50, "column": 200, "offset": 3560 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 50, "column": 1, "offset": 3361 },
+          "end": { "line": 50, "column": 200, "offset": 3560 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "I will write more blog posts about the different aspects of the projects. The next one will be about the GraphQL API.",
+            "position": {
+              "start": { "line": 52, "column": 1, "offset": 3562 },
+              "end": { "line": 52, "column": 118, "offset": 3679 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 52, "column": 1, "offset": 3562 },
+          "end": { "line": 52, "column": 118, "offset": 3679 },
+          "indent": []
+        }
+      },
+      {
+        "type": "heading",
+        "depth": 2,
+        "children": [
+          {
+            "type": "text",
+            "value": "Sounds cool. What will the finnished project look like?",
+            "position": {
+              "start": { "line": 54, "column": 1, "offset": 3681 },
+              "end": { "line": 54, "column": 56, "offset": 3736 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 54, "column": 1, "offset": 3681 },
+          "end": { "line": 55, "column": 56, "offset": 3792 },
+          "indent": [1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Except from the fact that the project probably will never be finnished.",
+            "position": {
+              "start": { "line": 57, "column": 1, "offset": 3794 },
+              "end": { "line": 57, "column": 72, "offset": 3865 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 57, "column": 1, "offset": 3794 },
+          "end": { "line": 57, "column": 72, "offset": 3865 },
+          "indent": []
+        }
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "start": 1,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "There will be a dashboard on this site where users can see how many people have visited the site. There will also be analytics on a per article level. Hopefully this can be added to the statis site generor.",
+                    "position": {
+                      "start": { "line": 59, "column": 5, "offset": 3871 },
+                      "end": { "line": 59, "column": 211, "offset": 4077 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 59, "column": 5, "offset": 3871 },
+                  "end": { "line": 59, "column": 211, "offset": 4077 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 59, "column": 1, "offset": 3867 },
+              "end": { "line": 59, "column": 211, "offset": 4077 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 59, "column": 1, "offset": 3867 },
+          "end": { "line": 59, "column": 211, "offset": 4077 },
+          "indent": []
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 60, "column": 1, "offset": 4078 }
+    }
+  }
+}

@@ -1,1 +1,246 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"trending":{"edges":[{"node":{"excerpt":"A handful of times in the last five years, I’ve tried to start a blog - and then consecutively failed. With this blog, that trend is going…","fields":{"slug":"/blogging-by-dummies/"},"frontmatter":{"date":"May 09, 2020","title":"Blogging by dummies","description":"","draft":false}}},{"node":{"excerpt":"This is a test.","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"May 09, 2020","title":"Hello world!","description":"","draft":false}}},{"node":{"excerpt":"GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect…","fields":{"slug":"/gallop-interfacing-with-a-database/"},"frontmatter":{"date":"May 09, 2020","title":"Gallop Interfacing with a database","description":"","draft":false}}},{"node":{"excerpt":"Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google…","fields":{"slug":"/tldr-google-cloud-bigtable/"},"frontmatter":{"date":"May 09, 2020","title":"TL;DR - Google Cloud Bigtable","description":"","draft":false}}},{"node":{"excerpt":"This article is about the database I’m trying to build - gallop. If you have not read the first article, please do ;). In this article I’ll…","fields":{"slug":"/gallop-indexing/"},"frontmatter":{"date":"May 09, 2020","title":"Gallop indexing","description":"","draft":false}}},{"node":{"excerpt":"Imagine you are a general trying to coordinate an attack together with another friendly general. The only way to win the battle is if both…","fields":{"slug":"/reaching-consensus-on-consenus/"},"frontmatter":{"date":"May 09, 2020","title":"Reaching Consensus on Consenus","description":"","draft":false}}},{"node":{"excerpt":"Collecting information about the people visiting your site is crucial - if you want to know who is visiting your site. In the case of this…","fields":{"slug":"/gallop-an-analytics-database-written-in-rust/"},"frontmatter":{"date":"May 09, 2020","title":"Gallop An analytics database written in Rust","description":"","draft":false}}},{"node":{"excerpt":"Sources Paper","fields":{"slug":"/tldr-elasticsearch/"},"frontmatter":{"date":"May 09, 2020","title":"TL;DR - ElasticSearch","description":"","draft":false}}},{"node":{"excerpt":"Most people use Google every day - yet almost nobody understands how it works. In this article, we will try to scratch the surface of how…","fields":{"slug":"/how-low-can-you-go-with-search/"},"frontmatter":{"date":"May 09, 2020","title":"How low can you go - with Search","description":"","draft":false}}}]},"all":{"edges":[{"node":{"excerpt":"Collecting information about the people visiting your site is crucial - if you want to know who is visiting your site. In the case of this…","fields":{"slug":"/gallop-an-analytics-database-written-in-rust/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"Gallop An analytics database written in Rust","description":"","draft":false}}},{"node":{"excerpt":"Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google…","fields":{"slug":"/tldr-google-cloud-bigtable/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"TL;DR - Google Cloud Bigtable","description":"","draft":false}}},{"node":{"excerpt":"GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect…","fields":{"slug":"/gallop-interfacing-with-a-database/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"Gallop Interfacing with a database","description":"","draft":false}}},{"node":{"excerpt":"Most people use Google every day - yet almost nobody understands how it works. In this article, we will try to scratch the surface of how…","fields":{"slug":"/how-low-can-you-go-with-search/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"How low can you go - with Search","description":"","draft":false}}},{"node":{"excerpt":"This is a test.","fields":{"slug":"/hello-world/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"Hello world!","description":"","draft":false}}},{"node":{"excerpt":"Sources Paper","fields":{"slug":"/tldr-elasticsearch/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"TL;DR - ElasticSearch","description":"","draft":false}}},{"node":{"excerpt":"A handful of times in the last five years, I’ve tried to start a blog - and then consecutively failed. With this blog, that trend is going…","fields":{"slug":"/blogging-by-dummies/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"Blogging by dummies","description":"","draft":false}}},{"node":{"excerpt":"This article is about the database I’m trying to build - gallop. If you have not read the first article, please do ;). In this article I’ll…","fields":{"slug":"/gallop-indexing/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"Gallop indexing","description":"","draft":false}}},{"node":{"excerpt":"Imagine you are a general trying to coordinate an attack together with another friendly general. The only way to win the battle is if both…","fields":{"slug":"/reaching-consensus-on-consenus/"},"frontmatter":{"month":"May 2020","date":"May 09, 2020","title":"Reaching Consensus on Consenus","description":"","draft":false}}}]}},"pageContext":{}}}
+{
+  "componentChunkName": "component---src-pages-index-js",
+  "path": "/",
+  "result": {
+    "data": {
+      "trending": {
+        "edges": [
+          {
+            "node": {
+              "excerpt": "A handful of times in the last five years, I’ve tried to start a blog - and then consecutively failed. With this blog, that trend is going…",
+              "fields": { "slug": "/blogging-by-dummies/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "Blogging by dummies",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "This is a test.",
+              "fields": { "slug": "/hello-world/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "Hello world!",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect…",
+              "fields": { "slug": "/gallop-interfacing-with-a-database/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "Gallop Interfacing with a database",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google…",
+              "fields": { "slug": "/tldr-google-cloud-bigtable/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "TL;DR - Google Cloud Bigtable",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "This article is about the database I’m trying to build - gallop. If you have not read the first article, please do ;). In this article I’ll…",
+              "fields": { "slug": "/gallop-indexing/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "Gallop indexing",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Imagine you are a general trying to coordinate an attack together with another friendly general. The only way to win the battle is if both…",
+              "fields": { "slug": "/reaching-consensus-on-consenus/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "Reaching Consensus on Consenus",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Collecting information about the people visiting your site is crucial - if you want to know who is visiting your site. In the case of this…",
+              "fields": {
+                "slug": "/gallop-an-analytics-database-written-in-rust/"
+              },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "Gallop An analytics database written in Rust",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Sources Paper",
+              "fields": { "slug": "/tldr-elasticsearch/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "TL;DR - ElasticSearch",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Most people use Google every day - yet almost nobody understands how it works. In this article, we will try to scratch the surface of how…",
+              "fields": { "slug": "/how-low-can-you-go-with-search/" },
+              "frontmatter": {
+                "date": "May 09, 2020",
+                "title": "How low can you go - with Search",
+                "description": "",
+                "draft": false
+              }
+            }
+          }
+        ]
+      },
+      "all": {
+        "edges": [
+          {
+            "node": {
+              "excerpt": "Collecting information about the people visiting your site is crucial - if you want to know who is visiting your site. In the case of this…",
+              "fields": {
+                "slug": "/gallop-an-analytics-database-written-in-rust/"
+              },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "Gallop An analytics database written in Rust",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google…",
+              "fields": { "slug": "/tldr-google-cloud-bigtable/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "TL;DR - Google Cloud Bigtable",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect…",
+              "fields": { "slug": "/gallop-interfacing-with-a-database/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "Gallop Interfacing with a database",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Most people use Google every day - yet almost nobody understands how it works. In this article, we will try to scratch the surface of how…",
+              "fields": { "slug": "/how-low-can-you-go-with-search/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "How low can you go - with Search",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "This is a test.",
+              "fields": { "slug": "/hello-world/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "Hello world!",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Sources Paper",
+              "fields": { "slug": "/tldr-elasticsearch/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "TL;DR - ElasticSearch",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "A handful of times in the last five years, I’ve tried to start a blog - and then consecutively failed. With this blog, that trend is going…",
+              "fields": { "slug": "/blogging-by-dummies/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "Blogging by dummies",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "This article is about the database I’m trying to build - gallop. If you have not read the first article, please do ;). In this article I’ll…",
+              "fields": { "slug": "/gallop-indexing/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "Gallop indexing",
+                "description": "",
+                "draft": false
+              }
+            }
+          },
+          {
+            "node": {
+              "excerpt": "Imagine you are a general trying to coordinate an attack together with another friendly general. The only way to win the battle is if both…",
+              "fields": { "slug": "/reaching-consensus-on-consenus/" },
+              "frontmatter": {
+                "month": "May 2020",
+                "date": "May 09, 2020",
+                "title": "Reaching Consensus on Consenus",
+                "description": "",
+                "draft": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {}
+  }
+}

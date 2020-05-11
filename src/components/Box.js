@@ -1,6 +1,6 @@
-import React, { Fragment, Children } from "react"
+import React, { Fragment, Children } from "react";
 
-const Box = props => {
+const Box = (props) => {
   const style = props.light
     ? {
         color: "black",
@@ -13,21 +13,21 @@ const Box = props => {
         backgroundColor: "#FF8939",
         // border: "3px solid #fff",
         // boxShadow: "5px 10px #ddd",
-      }
+      };
   return (
     <Fragment>
       {props.header ? <h4>{props.header}</h4> : null}
       <div className="box-shadow box-padding">
-      <div className="box" style={style}>
-        <div
-          className={props.row ? "row" : "column"}
-          style={{ display: "grid" }}
-        >
-          {props.children}
+        <div className="box" style={style}>
+          <div
+            className={props.row ? "row" : "column"}
+            style={{ display: "grid" }}
+          >
+            {props.children}
+          </div>
         </div>
       </div>
-      </div>
     </Fragment>
-  )
-}
-export default Box
+  );
+};
+export default Box;

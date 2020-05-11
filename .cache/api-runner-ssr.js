@@ -1,16 +1,43 @@
-var plugins = [{
-      plugin: require('/home/dev/projects/complex.codes/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/home/dev/projects/complex.codes/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"complex-codes-blog","short_name":"complex-codes","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/icon.png"},
-    },{
-      plugin: require('/home/dev/projects/complex.codes/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-164691340-1"},
-    },{
-      plugin: require('/home/dev/projects/complex.codes/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Staatliches","variants":["400"]},{"family":"Roboto Mono","variants":["100","300","400","500","700"]},{"family":"Roboto","variants":["100","300","400","500","700","900"]}]},
-    }]
+var plugins = [
+  {
+    plugin: require("/home/dev/projects/complex.codes/node_modules/gatsby-plugin-react-helmet/gatsby-ssr"),
+    options: { plugins: [] },
+  },
+  {
+    plugin: require("/home/dev/projects/complex.codes/node_modules/gatsby-plugin-manifest/gatsby-ssr"),
+    options: {
+      plugins: [],
+      name: "complex-codes-blog",
+      short_name: "complex-codes",
+      start_url: "/",
+      background_color: "#663399",
+      theme_color: "#663399",
+      display: "minimal-ui",
+      icon: "src/images/icon.png",
+    },
+  },
+  {
+    plugin: require("/home/dev/projects/complex.codes/node_modules/gatsby-plugin-google-analytics/gatsby-ssr"),
+    options: { plugins: [], trackingId: "UA-164691340-1" },
+  },
+  {
+    plugin: require("/home/dev/projects/complex.codes/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr"),
+    options: {
+      plugins: [],
+      fonts: [
+        { family: "Staatliches", variants: ["400"] },
+        {
+          family: "Roboto Mono",
+          variants: ["100", "300", "400", "500", "700"],
+        },
+        {
+          family: "Roboto",
+          variants: ["100", "300", "400", "500", "700", "900"],
+        },
+      ],
+    },
+  },
+];
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
@@ -23,33 +50,33 @@ var plugins = [{
 //   },
 // ]
 
-const apis = require(`./api-ssr-docs`)
+const apis = require(`./api-ssr-docs`);
 
 // Run the specified API in any plugins that have implemented it
 module.exports = (api, args, defaultReturn, argTransform) => {
   if (!apis[api]) {
-    console.log(`This API doesn't exist`, api)
+    console.log(`This API doesn't exist`, api);
   }
 
   // Run each plugin in series.
   // eslint-disable-next-line no-undef
-  let results = plugins.map(plugin => {
+  let results = plugins.map((plugin) => {
     if (!plugin.plugin[api]) {
-      return undefined
+      return undefined;
     }
-    const result = plugin.plugin[api](args, plugin.options)
+    const result = plugin.plugin[api](args, plugin.options);
     if (result && argTransform) {
-      args = argTransform({ args, result })
+      args = argTransform({ args, result });
     }
-    return result
-  })
+    return result;
+  });
 
   // Filter out undefined results.
-  results = results.filter(result => typeof result !== `undefined`)
+  results = results.filter((result) => typeof result !== `undefined`);
 
   if (results.length > 0) {
-    return results
+    return results;
   } else {
-    return [defaultReturn]
+    return [defaultReturn];
   }
-}
+};

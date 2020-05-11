@@ -1,13 +1,13 @@
-import React from "react"
+import React from "react";
 
-import Bio from "../components/Bio"
-import Box from "../components/Box"
-import PostPreview from "../components/PostPreview"
-import Layout from "../components/Layout"
+import Bio from "../components/Bio";
+import Box from "../components/Box";
+import PostPreview from "../components/PostPreview";
+import Layout from "../components/Layout";
 
 const IndexPage = ({ data, locations }) => {
-  const trending = data.trending.edges.slice(0, 3)
-  const months = groupAllPosts(data.all.edges)
+  const trending = data.trending.edges.slice(0, 3);
+  const months = groupAllPosts(data.all.edges);
   return (
     <Layout>
       <div>
@@ -22,7 +22,7 @@ const IndexPage = ({ data, locations }) => {
                 <div className={(index + 1) % 3 !== 0 ? "item" : "last"}>
                   <PostPreview key={post.node.fields.slug} post={post} />
                 </div>
-              )
+              );
             })}
           </Box>
         </div>
@@ -30,54 +30,54 @@ const IndexPage = ({ data, locations }) => {
       <div>
         <div>
           <h3>🗄 Archive</h3>
-          {months.map(month => {
+          {months.map((month) => {
             return (
               <Box key={month.tag} header={month.tag} light>
-                {month.posts.map(post => {
+                {month.posts.map((post) => {
                   const style = post.isMore
                     ? { borderBottom: "2px solid #777" }
-                    : {}
+                    : {};
                   return (
                     <div style={style}>
                       <PostPreview key={post.node.fields.slug} post={post} />
                     </div>
-                  )
+                  );
                 })}
               </Box>
-            )
+            );
           })}
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-const groupAllPosts = posts => {
-  const res = []
-  let month = null
+const groupAllPosts = (posts) => {
+  const res = [];
+  let month = null;
   for (const index in posts) {
-    const post = posts[index]
-    const postMonth = post.node.frontmatter.month
+    const post = posts[index];
+    const postMonth = post.node.frontmatter.month;
     if (month !== null) {
       if (month.tag === postMonth) {
-        month.posts[month.posts.length - 1].isMore = true
-        month.posts.push(post)
-        continue
+        month.posts[month.posts.length - 1].isMore = true;
+        month.posts.push(post);
+        continue;
       }
-      month = null
+      month = null;
     }
     if (month === null) {
       month = {
         tag: postMonth,
         posts: [post],
-      }
+      };
     }
-    res.push(month)
+    res.push(month);
   }
-  return res
-}
+  return res;
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query {
@@ -119,4 +119,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

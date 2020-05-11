@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
 const PostPreview = ({ post }) => {
-  const { frontmatter, fields, excerpt } = post.node
+  const { frontmatter, fields, excerpt } = post.node;
   return (
     <div style={{ margin: "15px 10px 30px 10px" }}>
       <Link to={fields.slug}>
@@ -11,7 +11,7 @@ const PostPreview = ({ post }) => {
         <p>{excerpt}</p>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default PostPreview
+export default PostPreview;

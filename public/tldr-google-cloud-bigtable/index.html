@@ -15,28 +15,16 @@
   <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"15d1369c-934e-11ea-bb37-0242ac130002"</span><span class="token punctuation">,</span>
   <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1000</span><span class="token punctuation">,</span>
   <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://www.example.com/about"</span>
-<span class="token punctuation">}</span>```
-
-There are three types of data here<span class="token operator">:</span>
-
-Random 
--------
-
-The row key is random. Random data should not be the beginning if a low key in Bigquery because it makes range queries useless.
-
-Timestamp 
-----------
-
-The timestamp for the example is a long time ago<span class="token punctuation">,</span> but when dealing with timestamps<span class="token punctuation">,</span> it is essential to get them in the right format.
-
-<span class="token number">2019</span>#<span class="token number">12</span>#<span class="token number">03</span>#<span class="token number">14</span><span class="token operator">:</span><span class="token number">05</span><span class="token operator">:</span><span class="token number">12</span>
-
-URL 
-----
-
-We are reversing the most common.
-
-In summary<span class="token punctuation">,</span> Bigtable is a great datastore - if you are storing massive amounts of data. Otherwise<span class="token punctuation">,</span> it's terrible.</code></pre></div></section><div class="m-y"><div class="box-shadow box-padding"><div class="box" style="color:black;background-color:#F7F7F7"><div class="column" style="display:grid"><div style="display:flex"><div class="portrait" style="margin:-30px 30px -60px -30px"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:300px;height:300px"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAwb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAG3XMuaPLWBGD//xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBCESEzH/2gAIAQEAAQUCL6cOsA1kaS3is9lljtMlz0DJuA//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABBAMBAQAAAAAAAAAAAAABAAIRIRASYQMx/9oACAEBAAY/AgNLmEDUExhpPzYJnXjFuK8e2o3K/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERITFBUWFx/9oACAEBAAE/Ic5ZNo7KNgGnFIwMkTlGr3B8IoYldyTqVHX6a012SSXuT//aAAwDAQACAAMAAAAQIAA8/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHRABAQACAgMBAAAAAAAAAAAAAREAMSFhQVGBwf/aAAgBAQABPxCYNgRus1AxJugee8Mo1gg0cS0qn7gAUi7aN99ZHFiU5TCrxQAejKtImRQbw2sNcI+pn//Z" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/8721d0d142eadc3cf0d02d9a567da4fe/25e3f/portrait.jpg 1x,
+<span class="token punctuation">}</span></code></pre></div>
+<p>There are three types of data here:</p>
+<h2>Random</h2>
+<p>The row key is random. Random data should not be the beginning if a low key in Bigquery because it makes range queries useless.</p>
+<h2>Timestamp</h2>
+<p>The timestamp for the example is a long time ago, but when dealing with timestamps, it is essential to get them in the right format.</p>
+<p>2019#12#03#14:05:12</p>
+<h2>URL</h2>
+<p>We are reversing the most common.</p>
+<p>In summary, Bigtable is a great datastore - if you are storing massive amounts of data. Otherwise, it’s terrible.</p></section><div class="m-y"><div class="box-shadow box-padding"><div class="box" style="color:black;background-color:#F7F7F7"><div class="column" style="display:grid"><div style="display:flex"><div class="portrait" style="margin:-30px 30px -60px -30px"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:300px;height:300px"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAwb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAG3XMuaPLWBGD//xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBCESEzH/2gAIAQEAAQUCL6cOsA1kaS3is9lljtMlz0DJuA//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABBAMBAQAAAAAAAAAAAAABAAIRIRASYQMx/9oACAEBAAY/AgNLmEDUExhpPzYJnXjFuK8e2o3K/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERITFBUWFx/9oACAEBAAE/Ic5ZNo7KNgGnFIwMkTlGr3B8IoYldyTqVHX6a012SSXuT//aAAwDAQACAAMAAAAQIAA8/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHRABAQACAgMBAAAAAAAAAAAAAREAMSFhQVGBwf/aAAgBAQABPxCYNgRus1AxJugee8Mo1gg0cS0qn7gAUi7aN99ZHFiU5TCrxQAejKtImRQbw2sNcI+pn//Z" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/8721d0d142eadc3cf0d02d9a567da4fe/25e3f/portrait.jpg 1x,
 /static/8721d0d142eadc3cf0d02d9a567da4fe/f11e0/portrait.jpg 1.5x,
 /static/8721d0d142eadc3cf0d02d9a567da4fe/7b2a1/portrait.jpg 2x" /><img loading="lazy" width="300" height="300" srcset="/static/8721d0d142eadc3cf0d02d9a567da4fe/25e3f/portrait.jpg 1x,
 /static/8721d0d142eadc3cf0d02d9a567da4fe/f11e0/portrait.jpg 1.5x,

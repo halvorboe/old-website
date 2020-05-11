@@ -1,1 +1,30 @@
-{"componentChunkName":"component---src-templates-post-template-js","path":"/tldr-bigtable/","result":{"data":{"site":{"siteMetadata":{"title":"Complex Codes"}},"markdownRemark":{"id":"774e8df1-1aaa-58bc-b41b-8aa5e994a02d","excerpt":"Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google Analytics. In 2015 Bigtable was launched as a public service on Google Cloud. Similar to many other datastores, Bigtable uses a structure of rows and columns. Where it differs is in that Bigtable only allows for a single index - the row-key. Three primary…","html":"<p>Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google Analytics. In 2015 Bigtable was launched as a public service on Google Cloud.</p>\n<p>Similar to many other datastores, Bigtable uses a structure of rows and columns. Where it differs is in that Bigtable only allows for a single index - the row-key. Three primary operations exist:</p>\n<ul>\n<li><strong>Mutate</strong> - used to change the value connected to a row key and also for inserts.</li>\n<li><strong>Read</strong> - read the value of a single row key.</li>\n<li><strong>Range</strong> - read a range of row keys. Both filtering and aggregations are supported.</li>\n</ul>\n<p>To achieve scaling, Bigtable splits the data into <em>nodes</em>. Each <em>node</em> is a commodity server and stores a range of row keys.</p>","frontmatter":{"title":"TL;DR - Bigtable","date":"May 05, 2020","description":"","draft":false}}},"pageContext":{"slug":"/tldr-bigtable/","previous":{"fields":{"slug":"/understanding-consensus/"},"frontmatter":{"title":"Understanding Algorithms for Distributed Consensus"}},"next":null}}}
+{
+  "componentChunkName": "component---src-templates-post-template-js",
+  "path": "/tldr-bigtable/",
+  "result": {
+    "data": {
+      "site": { "siteMetadata": { "title": "Complex Codes" } },
+      "markdownRemark": {
+        "id": "774e8df1-1aaa-58bc-b41b-8aa5e994a02d",
+        "excerpt": "Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google Analytics. In 2015 Bigtable was launched as a public service on Google Cloud. Similar to many other datastores, Bigtable uses a structure of rows and columns. Where it differs is in that Bigtable only allows for a single index - the row-key. Three primary…",
+        "html": "<p>Bigtable is a distributed storage system developed internally by Google to handle petabyte-scale applications - like Google Maps and Google Analytics. In 2015 Bigtable was launched as a public service on Google Cloud.</p>\n<p>Similar to many other datastores, Bigtable uses a structure of rows and columns. Where it differs is in that Bigtable only allows for a single index - the row-key. Three primary operations exist:</p>\n<ul>\n<li><strong>Mutate</strong> - used to change the value connected to a row key and also for inserts.</li>\n<li><strong>Read</strong> - read the value of a single row key.</li>\n<li><strong>Range</strong> - read a range of row keys. Both filtering and aggregations are supported.</li>\n</ul>\n<p>To achieve scaling, Bigtable splits the data into <em>nodes</em>. Each <em>node</em> is a commodity server and stores a range of row keys.</p>",
+        "frontmatter": {
+          "title": "TL;DR - Bigtable",
+          "date": "May 05, 2020",
+          "description": "",
+          "draft": false
+        }
+      }
+    },
+    "pageContext": {
+      "slug": "/tldr-bigtable/",
+      "previous": {
+        "fields": { "slug": "/understanding-consensus/" },
+        "frontmatter": {
+          "title": "Understanding Algorithms for Distributed Consensus"
+        }
+      },
+      "next": null
+    }
+  }
+}

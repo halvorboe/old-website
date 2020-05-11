@@ -1,8 +1,8 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
-const PortraitImage = props => {
+const PortraitImage = (props) => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "portrait.jpeg" }) {
@@ -13,9 +13,9 @@ const PortraitImage = props => {
         }
       }
     }
-  `)
+  `);
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
-}
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />;
+};
 
-export default PortraitImage
+export default PortraitImage;

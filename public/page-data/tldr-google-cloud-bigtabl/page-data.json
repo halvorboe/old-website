@@ -1,1 +1,31 @@
-{"componentChunkName":"component---src-templates-post-template-js","path":"/tldr-google-cloud-bigtabl/","result":{"data":{"site":{"siteMetadata":{"title":"Complex Codes"}},"markdownRemark":{"id":"a0f547c6-b151-5b38-897b-991200928790","excerpt":"Bigtable is a distributed storage system developed internally by Google\nto handle petabyte-scale applications - like Google Maps and Google\nAnalytics. In 2015 Bigtable was launched as a public service on Google\nCloud. Similar to many other datastores, Bigtable uses a structure of rows and\ncolumns. Where it differs is in that Bigtable only allows for a single\nindex - the row-key. Three primary…","html":"<p>Bigtable is a distributed storage system developed internally by Google\nto handle petabyte-scale applications - like Google Maps and Google\nAnalytics. In 2015 Bigtable was launched as a public service on Google\nCloud.</p>\n<p>Similar to many other datastores, Bigtable uses a structure of rows and\ncolumns. Where it differs is in that Bigtable only allows for a single\nindex - the row-key. Three primary operations exist:</p>\n<ul>\n<li>\n<p><strong>Mutate</strong> - used to change the value connected to a row key and</p>\n<blockquote>\n<p>also for inserts.</p>\n</blockquote>\n</li>\n<li><strong>Read</strong> - read the value of a single row key.</li>\n<li>\n<p><strong>Range</strong> - read a range of row keys. Both filtering and</p>\n<blockquote>\n<p>aggregations are supported.</p>\n</blockquote>\n</li>\n</ul>\n<p>To achieve scaling, Bigtable splits the data into <em>nodes</em>. Each <em>node</em>\nis a commodity server and stores a range of row keys.</p>","frontmatter":{"title":"TL;DR - Google Cloud Bigtabl","date":"May 09, 2020","description":"","draft":false}}},"pageContext":{"slug":"/tldr-google-cloud-bigtabl/","previous":{"fields":{"slug":"/reaching-consensus-on-consenus/"},"frontmatter":{"title":"Reaching Consensus on Consenus"}},"next":{"fields":{"slug":"/gallop-indexing/"},"frontmatter":{"title":"Gallop indexing"}}}}}
+{
+  "componentChunkName": "component---src-templates-post-template-js",
+  "path": "/tldr-google-cloud-bigtabl/",
+  "result": {
+    "data": {
+      "site": { "siteMetadata": { "title": "Complex Codes" } },
+      "markdownRemark": {
+        "id": "a0f547c6-b151-5b38-897b-991200928790",
+        "excerpt": "Bigtable is a distributed storage system developed internally by Google\nto handle petabyte-scale applications - like Google Maps and Google\nAnalytics. In 2015 Bigtable was launched as a public service on Google\nCloud. Similar to many other datastores, Bigtable uses a structure of rows and\ncolumns. Where it differs is in that Bigtable only allows for a single\nindex - the row-key. Three primary…",
+        "html": "<p>Bigtable is a distributed storage system developed internally by Google\nto handle petabyte-scale applications - like Google Maps and Google\nAnalytics. In 2015 Bigtable was launched as a public service on Google\nCloud.</p>\n<p>Similar to many other datastores, Bigtable uses a structure of rows and\ncolumns. Where it differs is in that Bigtable only allows for a single\nindex - the row-key. Three primary operations exist:</p>\n<ul>\n<li>\n<p><strong>Mutate</strong> - used to change the value connected to a row key and</p>\n<blockquote>\n<p>also for inserts.</p>\n</blockquote>\n</li>\n<li><strong>Read</strong> - read the value of a single row key.</li>\n<li>\n<p><strong>Range</strong> - read a range of row keys. Both filtering and</p>\n<blockquote>\n<p>aggregations are supported.</p>\n</blockquote>\n</li>\n</ul>\n<p>To achieve scaling, Bigtable splits the data into <em>nodes</em>. Each <em>node</em>\nis a commodity server and stores a range of row keys.</p>",
+        "frontmatter": {
+          "title": "TL;DR - Google Cloud Bigtabl",
+          "date": "May 09, 2020",
+          "description": "",
+          "draft": false
+        }
+      }
+    },
+    "pageContext": {
+      "slug": "/tldr-google-cloud-bigtabl/",
+      "previous": {
+        "fields": { "slug": "/reaching-consensus-on-consenus/" },
+        "frontmatter": { "title": "Reaching Consensus on Consenus" }
+      },
+      "next": {
+        "fields": { "slug": "/gallop-indexing/" },
+        "frontmatter": { "title": "Gallop indexing" }
+      }
+    }
+  }
+}

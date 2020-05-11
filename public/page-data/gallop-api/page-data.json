@@ -1,1 +1,31 @@
-{"componentChunkName":"component---src-templates-post-template-js","path":"/gallop-api/","result":{"data":{"site":{"siteMetadata":{"title":"Complex Codes"}},"markdownRemark":{"id":"3558f947-682b-55ae-963f-e9de9db57151","excerpt":"GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect project to do so.","html":"<!--\nPrewriting:\nIdea: Writing about the GraphQL front-end for Gallop.\nMore ideas:\n- Caching.\n-->\n<p>GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect project to do so.</p>","frontmatter":{"title":"Gallop: GraphQL Interface for a Datastore","date":"April 30, 2020","description":"","draft":true}}},"pageContext":{"slug":"/gallop-api/","previous":{"fields":{"slug":"/gallop-indexing/"},"frontmatter":{"title":"Gallop: Indexing timestamps at lightspeed"}},"next":{"fields":{"slug":"/meta/"},"frontmatter":{"title":"Blogging by dummies"}}}}}
+{
+  "componentChunkName": "component---src-templates-post-template-js",
+  "path": "/gallop-api/",
+  "result": {
+    "data": {
+      "site": { "siteMetadata": { "title": "Complex Codes" } },
+      "markdownRemark": {
+        "id": "3558f947-682b-55ae-963f-e9de9db57151",
+        "excerpt": "GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect project to do so.",
+        "html": "<!--\nPrewriting:\nIdea: Writing about the GraphQL front-end for Gallop.\nMore ideas:\n- Caching.\n-->\n<p>GraphQL is the hottest way to create APIs at the moment. At least that is my impression. I wanted to try it out and I had the perfect project to do so.</p>",
+        "frontmatter": {
+          "title": "Gallop: GraphQL Interface for a Datastore",
+          "date": "April 30, 2020",
+          "description": "",
+          "draft": true
+        }
+      }
+    },
+    "pageContext": {
+      "slug": "/gallop-api/",
+      "previous": {
+        "fields": { "slug": "/gallop-indexing/" },
+        "frontmatter": { "title": "Gallop: Indexing timestamps at lightspeed" }
+      },
+      "next": {
+        "fields": { "slug": "/meta/" },
+        "frontmatter": { "title": "Blogging by dummies" }
+      }
+    }
+  }
+}

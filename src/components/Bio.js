@@ -1,18 +1,21 @@
-import React from "react"
+import React from "react";
 
-import Portrait from "./Portrait"
-import Box from "./Box"
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"
+import Portrait from "./Portrait";
+import Box from "./Box";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 const Bio = () => {
   return (
     <div className="m-y">
       <Box light>
         <div style={{ display: "flex" }}>
-            <div className="portrait" style={{ margin: "-30px 30px -60px -30px" }}>
-              <Portrait />
-            </div>
-          
+          <div
+            className="portrait"
+            style={{ margin: "-30px 30px -60px -30px" }}
+          >
+            <Portrait />
+          </div>
+
           <div>
             <h3>The Writer</h3>
             <h1>Halvor Fladsrud Bø (21)</h1>
@@ -22,17 +25,23 @@ const Bio = () => {
               niche interests without loosing friends.
             </p>
             <span className="icons" style={{ padding: "0 100" }}>
-              <a target="_blank" href="https://www.linkedin.com/in/halvorboe/"><FaLinkedin /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/halvorboe/">
+                <FaLinkedin />
+              </a>
               {"            "}
-              <a target="_blank" href="https://github.com/halvorboe"><FaGithub /></a>
+              <a target="_blank" href="https://github.com/halvorboe">
+                <FaGithub />
+              </a>
               {"            "}
-              <a target="_blank" href="mailto:hfb@complex.codes"><FaEnvelope /></a>
+              <a target="_blank" href="mailto:hfb@complex.codes">
+                <FaEnvelope />
+              </a>
             </span>
           </div>
         </div>
       </Box>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;
