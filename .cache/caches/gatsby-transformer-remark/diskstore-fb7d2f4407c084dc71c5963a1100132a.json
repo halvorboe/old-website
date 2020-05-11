@@ -1,5 +1,0 @@
-{
-  "expireTime": 9007200843919225000,
-  "key": "transformer-remark-markdown-html-8ec38fb53cfc41f41e3acda77fd0ab7b-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypants-",
-  "val": "<p>This is a test.</p>\n<div class=\"gatsby-highlight\" data-language=\"py\"><pre class=\"language-py\"><code class=\"language-py\"><span class=\"token keyword\">from</span> datetime <span class=\"token keyword\">import</span> datetime\nmy_date <span class=\"token operator\">=</span> datetime<span class=\"token punctuation\">.</span>now<span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token keyword\">print</span><span class=\"token punctuation\">(</span>my_date<span class=\"token punctuation\">.</span>strftime<span class=\"token punctuation\">(</span><span class=\"token string\">'%Y-%m-%dT%H:%M:%S.%f%z'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>```</code></pre></div>"
-}
