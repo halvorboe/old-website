@@ -2,13 +2,12 @@ import React from "react";
 
 import Portrait from "./Portrait";
 import Box from "./Box";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaSmileWink } from "react-icons/fa";
 
 const Bio = () => {
   return (
     <div className="m-y">
-      <h3>👨 About me</h3>
-      <Box >
+      <Box header="About me" icon={<FaSmileWink />}>
         <div style={{ display: "flex" }}>
           <div
             className="portrait"
@@ -18,7 +17,6 @@ const Bio = () => {
           </div>
 
           <div>
-            <h3>The Writer</h3>
             <h1>Halvor Fladsrud Bø (21)</h1>
             <p>
               I'm currently a full-time Computer Engineering student at NTNU in

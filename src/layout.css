@@ -1,3 +1,11 @@
+
+:root {
+    --primary-light: #FFFFFF;
+    --primary-dark: #DDDDDD;
+    --primary-background: #efefef;
+    --contrast: #FF8939;
+  }
+
 /* Global */ 
 * {
     margin: 0;
@@ -6,19 +14,28 @@
 
 body {
     padding: 3rem 4rem 0;
-    background-color: #eeeeee;
-    /* color: #999; */
-  }
-  
+    background-color: var(--primary-background);
+/* color: #999; */
+}
+
+
+.box {
+    padding: 15px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--primary-background);
+}
+
+
   
   * {
     box-sizing: border-box;
   }
   
   .neumorphic {
-    box-shadow: 12px 12px 24px 0 rgba(167, 167, 167, 0.2),
-      -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
-    border-radius: 15px;
+    box-shadow: 12px 12px 24px 0 var(--primary-dark),
+      -12px -12px 24px 0 var(--primary-light);
+    border-radius: 50px;
   }
   
   /* .neumorphic--pressed {
@@ -85,12 +102,15 @@ p, li, ol, ul {
 }
 
 .icons {
+
     font-size: 24px;
-    line-height: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    color: var(--contrast);
 }
 
 h1,h2,h3,h4,p,span {
-    margin: 15px 0 7.5px 0;
+    margin: 20px 0px 10px 0px;
 }
 
 /* Fonts */
@@ -149,13 +169,6 @@ a {
 
 /* Box */
 
-.box {
-    padding: 15px 15px;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #eeeeee;;
-}
-
 /* 
 .box-shadow {
     padding-right: 3px;
@@ -168,10 +181,6 @@ a {
     background-position: 0 0, 3px 3px;
     background-size: 6px 6px;
 } */
-
-.box-padding {
-    margin-bottom: 60px;
-}
 
 /* Padding */
 .m-y {
@@ -196,10 +205,3 @@ section {
 }
 
 /* About */
-
-.portrait {
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-image: url(https://i.imgur.com/gf2ZFUp.jpg);
-}

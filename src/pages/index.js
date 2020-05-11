@@ -5,6 +5,8 @@ import Box from "../components/Box";
 import PostPreview from "../components/PostPreview";
 import Layout from "../components/Layout";
 
+import {FaFire, FaCalendar} from "react-icons/fa";
+
 const IndexPage = ({ data, locations }) => {
   const trending = data.trending.edges.slice(0, 3);
   const months = groupAllPosts(data.all.edges);
@@ -15,8 +17,7 @@ const IndexPage = ({ data, locations }) => {
       </div>
       <div>
         <div className="m-y">
-          <h3>🔥 Trending posts</h3>
-          <Box row>
+          <Box header="Trending posts" icon={<FaFire />} row>
             {trending.map((post, index) => {
               return (
                 <div className={(index + 1) % 3 !== 0 ? "item" : "last"}>
@@ -28,11 +29,10 @@ const IndexPage = ({ data, locations }) => {
         </div>
       </div>
       <div>
-        <div  className="m-y">
-          <h3>🗄 Archive</h3>
+        <div className="">
           {months.map((month) => {
             return (
-              <Box key={month.tag} header={month.tag} light>
+              <Box key={month.tag} header={month.tag} icon={<FaCalendar />} light>
                 {month.posts.map((post) => {
                   const style = post.isMore
                     ? { borderBottom: "2px solid #fff" }
