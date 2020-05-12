@@ -22,11 +22,15 @@ body {
 
 .box {
     padding: 15px 15px;
-    border-radius: 50px;
+    border-radius: 15px;
     overflow: hidden;
     background-color: var(--primary-background-box) !important;
 }
 
+.container {
+    max-width: 800px;
+    margin: auto;
+}
 
   
   * {
@@ -81,18 +85,18 @@ h1 {
 }
 
 h2 {
-    font-size:  24px;
+    font-size:  30px;
     font-weight: 700;
 }
 
 
 h3 {
-    font-size:  20px;
+    font-size:  22px;
     font-weight: 500;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -129,7 +133,7 @@ h3, h4, h5 {
 }
 
 p, ol, ul {
-    font-family: 'Roboto'; 
+    font-family: 'Roboto Mono'; 
 }
 
 
@@ -203,7 +207,7 @@ section > ol, section > ul {
 }
 
 section {
-    margin: 0 15px;
+    /* margin: 0 15px; */
 }
 
 /* About */

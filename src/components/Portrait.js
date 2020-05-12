@@ -7,7 +7,7 @@ const PortraitImage = (props) => {
     query {
       placeholderImage: file(relativePath: { eq: "portrait.jpeg" }) {
         childImageSharp {
-          fixed(width: 300, height: 300) {
+          fixed(width: 350, height: 350) {
             ...GatsbyImageSharpFixed
           }
         }
