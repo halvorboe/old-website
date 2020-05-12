@@ -1,9 +1,10 @@
 
 :root {
-    --primary-light: #FFFFFF;
-    --primary-dark: #DDDDDD;
-    --primary-background: #efefef;
+    --primary-light: #2f2f2f;
+    --primary-dark: #232323;
+    --primary-background: #292829;
     --contrast: #FF8939;
+    --primary-background-box: #292829;
   }
 
 /* Global */ 
@@ -21,9 +22,9 @@ body {
 
 .box {
     padding: 15px 15px;
-    border-radius: 10px;
+    border-radius: 50px;
     overflow: hidden;
-    background-color: var(--primary-background);
+    background-color: var(--primary-background-box) !important;
 }
 
 
@@ -33,9 +34,9 @@ body {
   }
   
   .neumorphic {
-    box-shadow: 12px 12px 24px 0 var(--primary-dark),
-      -12px -12px 24px 0 var(--primary-light);
-    border-radius: 50px;
+    box-shadow: 12px 12px 24px var(--primary-dark),
+    -12px -12px 24px var(--primary-light);
+    border-radius: 15px;
   }
   
   /* .neumorphic--pressed {
@@ -109,8 +110,9 @@ p, li, ol, ul {
     color: var(--contrast);
 }
 
-h1,h2,h3,h4,p,span {
+h1,h2,h3,h4,p,span, li {
     margin: 20px 0px 10px 0px;
+    color: white;
 }
 
 /* Fonts */

@@ -21,8 +21,7 @@ const Bio = () => {
             <p>
               I'm currently a full-time Computer Engineering student at NTNU in
               Trondheim, Norway. This blog is a place where I can 'share' my
-              niche interests without loosing friends.
-            </p>
+              niche interests without loosing friends. If you have any questions or enjoy what I'm doing, please contact me at: </p>
             <span className="icons" style={{ padding: "0 100" }}>
               <a target="_blank" href="https://www.linkedin.com/in/halvorboe/">
                 <FaLinkedin />

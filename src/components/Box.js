@@ -20,15 +20,15 @@ const Box = (props) => {
   return (
     <Fragment>
       {props.header ? <h3 style={{marginBottom: 30}}><spac style={{fontSize: 30, margin: "0px 15px 0px 0", position: "relative", top: 7, color: "var(--contrast"}}>{props.icon}</spac>{props.header}</h3> : null}
-      <div className="neumorphic box-padding">
-        <div className="box">
+      <div className="neumorphic box">
+        {/* <div className="box"> */}
           <div
             className={props.row ? "row" : "column"}
             style={{ display: "grid" }}
           >
             {props.children}
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </Fragment>
   );
