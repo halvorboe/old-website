@@ -17,6 +17,10 @@ const PostTemplate = ({ data, pageContext, location }) => {
         <h1> {post.frontmatter.title}</h1>
       </section>
       <section dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div>
+      <button className="neumorphic">Test</button>
+      <button> className="neumorphic">Test</button>
+</div>
       <Bio />
       {/* <Analytics /> */}
     </Layout>
