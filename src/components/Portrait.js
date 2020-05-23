@@ -5,9 +5,9 @@ import Img from "gatsby-image";
 const PortraitImage = (props) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "portrait.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "IMG_0404.jpeg" }) {
         childImageSharp {
-          fixed(width: 350, height: 350) {
+          fixed(width: 300, height: 300) {
             ...GatsbyImageSharpFixed
           }
         }
