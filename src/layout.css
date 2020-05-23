@@ -101,9 +101,9 @@ h4 {
 }
 
 p, li, ol, ul {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300; 
-    line-height: 135%;
+    line-height: 120%;
 }
 
 .icons {
@@ -133,7 +133,7 @@ h3, h4, h5 {
 }
 
 p, ol, ul {
-    font-family: 'Roboto Mono'; 
+    font-family: 'Roboto'; 
 }
 
 
@@ -195,11 +195,11 @@ a {
 
 /* Markdown */
 section > h1, section > h2, section > h3, section > h4 {
-    margin: 40px 0 20px 0;
+    margin: 60px 0 30px 0;
 }
 
 section > p, section > ol, section > ul {
-    margin: 20px 0 20px 0; 
+    margin: 30px 0 30px 0; 
 }
 
 section > ol, section > ul {
@@ -211,3 +211,7 @@ section {
 }
 
 /* About */
+
+.gatsby-highlight {
+    padding: 30px;
+}
