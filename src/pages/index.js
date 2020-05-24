@@ -5,7 +5,7 @@ import Box from "../components/Box";
 import PostPreview from "../components/PostPreview";
 import Layout from "../components/Layout";
 
-import {FaFire, FaCalendar} from "react-icons/fa";
+import { FaFire, FaCalendar } from "react-icons/fa";
 
 const IndexPage = ({ data, locations }) => {
   const trending = data.trending.edges.slice(0, 3);
@@ -32,7 +32,12 @@ const IndexPage = ({ data, locations }) => {
         <div className="">
           {months.map((month) => {
             return (
-              <Box key={month.tag} header={month.tag} icon={<FaCalendar />} light>
+              <Box
+                key={month.tag}
+                header={month.tag}
+                icon={<FaCalendar />}
+                light
+              >
                 {month.posts.map((post) => {
                   const style = post.isMore
                     ? { borderBottom: "2px solid #fff" }

@@ -1,9 +1,9 @@
 
 :root {
-    --primary-light: #2f2f2f;
-    --primary-dark: #232323;
-    --primary-background: #292829;
-    --contrast: #FF8939;
+    --primary-light: #ffad42;
+    --primary-dark: #ffad42;
+    --primary-background: #ffad42;
+    --contrast: #fff;
     --primary-background-box: #292829;
   }
 
@@ -16,7 +16,6 @@
 body {
     padding: 3rem 4rem 0;
     background-color: var(--primary-background);
-/* color: #999; */
 }
 
 
@@ -24,7 +23,6 @@ body {
     padding: 15px 15px;
     border-radius: 15px;
     overflow: hidden;
-    background-color: var(--primary-background-box) !important;
 }
 
 .container {
@@ -32,35 +30,29 @@ body {
     margin: auto;
 }
 
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .neumorphic {
-    box-shadow: 12px 12px 24px var(--primary-dark),
-    -12px -12px 24px var(--primary-light);
+
+* {
+box-sizing: border-box;
+}
+
+.neumorphic {
     border-radius: 15px;
-  }
-  
-  /* .neumorphic--pressed {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-      inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
-  } */
-  
-  .button {
+    background: linear-gradient(145deg, #ffb947, #e69c3b);
+    box-shadow:  7px 7px 14px #d99338, -7px -7px 14px #ffc74c;
+} 
+.button {
     justify-content: space-around;
     align-items: center;
-  }
-  
-  .button span {
+}
+
+.button span {
     display: block;
     padding-bottom: 1.5rem;
     position: relative;
     font-size: 3rem;
-  }
-  
-  .button span::after {
+}
+
+.button span::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -72,11 +64,11 @@ body {
     width: 50%;
     margin: 0 auto;
     background-color: currentColor;
-  }
-  
-  .button.pressed {
-    color: #5ab9ea;
-  }
+}
+
+.button.pressed {
+color: #5ab 9ea;
+}
 /* Font-sizes */
 
 h1 {
@@ -100,10 +92,11 @@ h4 {
     font-weight: 500;
 }
 
-p, li, ol, ul {
+p, li, ol, ul, h5 {
     font-size: 18px;
-    font-weight: 300; 
+    font-weight: 200; 
     line-height: 120%;
+    /* letter-spacing: 120%; */
 }
 
 .icons {
@@ -114,7 +107,7 @@ p, li, ol, ul {
     color: var(--contrast);
 }
 
-h1,h2,h3,h4,p,span, li {
+h1,h2,h3,h4,h5, p,span, li {
     margin: 20px 0px 10px 0px;
     color: white;
 }
@@ -213,5 +206,5 @@ section {
 /* About */
 
 .gatsby-highlight {
-    padding: 30px;
+    margin: 30x 10px;
 }

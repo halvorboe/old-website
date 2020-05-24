@@ -1,24 +1,27 @@
 import React from "react";
 
 import Logo from "./Logo";
-import {Link} from "gatsby"
+import { Link } from "gatsby";
 
 import "../layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div style={{padding: "0 20px"}}>
+    <div style={{ padding: "0 20px" }}>
       <div style={{ maxWidth: 800, margin: "auto" }}>
-        <Link to="/"><header style={{ margin: "100px 0 40px 0" }}>
-          <Logo />
-        </header></Link>
+        <Link to="/">
+          <header style={{ margin: "100px 0 40px 0" }}>
+            <Logo />
+            <h5 style={{madgin: "0 0 0 0"}}>A blog about nothing.</h5>
+          </header>
+        </Link>
       </div>
       <div
         className="container"
         style={{
-          backgroundColor: "#FF8939",
+          backgroundColor: "white",
           height: "5px",
-          margin: "70px auto",
+          margin: "0px auto 70px auto",
           borderRadius: "2.5px",
         }}
       />
@@ -26,7 +29,7 @@ const Layout = ({ children }) => {
       <div
         className="container"
         style={{
-          backgroundColor: "#FF8939",
+          backgroundColor: "white",
           height: "5px",
           margin: "70px auto",
           borderRadius: "2.5px",
