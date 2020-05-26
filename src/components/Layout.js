@@ -12,7 +12,6 @@ const Layout = ({ children }) => {
         <Link to="/">
           <header style={{ margin: "100px 0 40px 0" }}>
             <Logo />
-            <h5 style={{madgin: "0 0 0 0"}}>A blog about nothing.</h5>
           </header>
         </Link>
       </div>
