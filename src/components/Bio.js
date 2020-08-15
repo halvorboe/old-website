@@ -1,46 +1,70 @@
-import React from "react";
+/**
+ * Bio component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
 
-import Portrait from "./Portrait";
-import Box from "./Box";
-import { FaLinkedin, FaGithub, FaEnvelope, FaSmileWink } from "react-icons/fa";
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Image from "gatsby-image"
+
+import { rhythm } from "../utils/typography"
 
 const Bio = () => {
+  const data = useStaticQuery(graphql`
+    query BioQuery {
+      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+        childImageSharp {
+          fixed(width: 50, height: 50) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      site {
+        siteMetadata {
+          author {
+            name
+            summary
+          }
+          social {
+            twitter
+          }
+        }
+      }
+    }
+  `)
+
+  const { author, social } = data.site.siteMetadata
   return (
-    <div className="m-y">
-      <Box header="About me" icon={<FaSmileWink />}>
-        <div style={{ display: "flex" }}>
-          <div
-            className="portrait"
-            style={{ margin: "-30px 30px -60px -30px" }}
-          >
-            <Portrait />
-          </div>
-
-          <div>
-            <h1>Halvor Fladsrud Bø (21)</h1>
-            <p>
-              I'm currently a full-time Computer Engineering student at NTNU in
-              Trondheim, Norway. This blog is a place where I can 'share' my
-              niche interests without loosing friends.{" "}
-            </p>
-            <span className="icons" style={{ padding: "0 100" }}>
-              <a target="_blank" href="https://www.linkedin.com/in/halvorboe/">
-                <FaLinkedin />
-              </a>
-              {"            "}
-              <a target="_blank" href="https://github.com/halvorboe">
-                <FaGithub />
-              </a>
-              {"            "}
-              <a target="_blank" href="mailto:hfb@complex.codes">
-                <FaEnvelope />
-              </a>
-            </span>
-          </div>
-        </div>
-      </Box>
+    <div
+      style={{
+        display: `flex`,
+        marginBottom: rhythm(2.5),
+      }}
+    >
+      <Image
+        fixed={data.avatar.childImageSharp.fixed}
+        alt={author.name}
+        style={{
+          marginRight: rhythm(1 / 2),
+          marginBottom: 0,
+          minWidth: 50,
+          borderRadius: `100%`,
+        }}
+        imgStyle={{
+          borderRadius: `50%`,
+        }}
+      />
+      <p>
+        Written by <strong>{author.name}</strong> {author.summary}
+        {` `}
+        <a href={`https://twitter.com/${social.twitter}`}>
+          You should follow him on Twitter
+        </a>
+      </p>
     </div>
-  );
-};
+  )
+}
 
-export default Bio;
+export default Bio

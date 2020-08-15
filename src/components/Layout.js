@@ -1,46 +1,70 @@
-import React from "react";
+import React from "react"
+import { Link } from "gatsby"
 
-import Logo from "./Logo";
-import { Link } from "gatsby";
+import { rhythm, scale } from "../utils/typography"
 
-import "../layout.css";
+const Layout = ({ location, title, children }) => {
+  const rootPath = `${__PATH_PREFIX__}/`
+  let header
 
-const Layout = ({ children }) => {
-  return (
-    <div style={{ padding: "0 20px" }}>
-      <div style={{ maxWidth: 800, margin: "auto" }}>
-        <Link to="/">
-          <header style={{ margin: "100px 0 40px 0" }}>
-            <Logo />
-          </header>
+  if (location.pathname === rootPath) {
+    header = (
+      <h1
+        style={{
+          ...scale(1.5),
+          marginBottom: rhythm(1.5),
+          marginTop: 0,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
         </Link>
-      </div>
-      <div
-        className="container"
+      </h1>
+    )
+  } else {
+    header = (
+      <h3
         style={{
-          backgroundColor: "white",
-          height: "5px",
-          margin: "0px auto 70px auto",
-          borderRadius: "2.5px",
+          fontFamily: `Montserrat, sans-serif`,
+          marginTop: 0,
         }}
-      />
-      <div className="container">{children}</div>
-      <div
-        className="container"
-        style={{
-          backgroundColor: "white",
-          height: "5px",
-          margin: "70px auto",
-          borderRadius: "2.5px",
-        }}
-      />
-      <div style={{ maxWidth: 800, margin: "auto" }}>
-        <footer style={{ margin: "40px 0 100px 0" }}>
-          <h3>Made in 🇳🇴 with gatsby and 🤟</h3>
-        </footer>
-      </div>
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
+        </Link>
+      </h3>
+    )
+  }
+  return (
+    <div
+      style={{
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
+        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+      }}
+    >
+      <header>{header}</header>
+      <main>{children}</main>
+      <footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

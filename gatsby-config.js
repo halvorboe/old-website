@@ -1,23 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: `Complex Codes`,
-    description: `Blog by Halvor Fladsrud Bø.`,
-    author: `@halvorboe`,
+    title: `Gatsby Starter Blog`,
+    author: {
+      name: `Kyle Mathews`,
+      summary: `who lives and works in San Francisco building useful things.`,
+    },
+    description: `A starter blog demonstrating what Gatsby can do.`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    social: {
+      twitter: `kylemathews`,
+    },
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/posts`,
-        name: `posts`,
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
     {
@@ -52,55 +51,33 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `complex-codes-blog`,
-        short_name: `complex-codes`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-164691340-1",
+        //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    `gatsby-plugin-feed`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        fonts: [
-          {
-            family: `Staatliches`,
-            variants: [`400`],
-          },
-          {
-            family: `Roboto Mono`,
-            variants: [`100`, `300`, `400`, `500`, `700`],
-          },
-          {
-            family: `Roboto Slab`,
-            variants: [
-              `100`,
-              `200`,
-              `300`,
-              `400`,
-              `500`,
-              `600`,
-              `700`,
-              `800`,
-              `900`,
-            ],
-          },
-          {
-            family: `Roboto`,
-            variants: [`100`, `300`, `400`, `500`, `700`, `900`],
-          },
-        ],
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/gatsby-icon.png`,
       },
     },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
-};
+}
